@@ -548,7 +548,7 @@ moneybillcategory.infrastructureconstruction.categoryname	20	Infrastructure cons
 moneybillcategory.permitpurchase.categoryname	20	Permit Purchase	Permit Purchase
 moneybillcategory.producttrade.categoryname	20	Product trade	Product trade
 moneybillcategory.renting.categoryname	20	Renting	Renting
-moneybillcategory.researchcosts.categoryname	20	R&D Expenses	R&D Expenses
+moneybillcategory.researchcosts.categoryname	20	R&D Expenses	연구 개발비
 moneybillcategory.researchrefund.categoryname	20	R&D Refund	R&D Refund
 moneybillcategory.routevehicleupkeep.categoryname	20	Route Vehicle Upkeep	Route Vehicle Upkeep
 moneybillcategory.terraformingbillcategory.categoryname	20	Terraforming	지형툴
@@ -615,21 +615,21 @@ datacategory.rawresources.categoryname	15	Raw Resources	Raw Resources
 datacategory.row1.categoryname	15	Tier1	1티어
 datacategory.row2.categoryname	15	Tier2	2티어
 datacategory.row3.categoryname	15	Tier3	3티어
-datacategory.farmproduce.categoryname	15	Farm Produce	Farm Produce
+datacategory.farmproduce.categoryname	15	Farm Produce	농장 작물
 datacategory.endproducts.categoryname	15	End Products	End Products
-productdefinition.adhesive.productname	15	Adhesive	Adhesive
-productdefinition.alternator.productname	15	Alternator	Alternator
+productdefinition.adhesive.productname	15	Adhesive	테이프
+productdefinition.alternator.productname	15	Alternator	교류 발전기
 productdefinition.apples.productname	15	Apples	사과
 productdefinition.applesmoothie.productname	15	Apple Smoothie	사과 스무디
 productdefinition.axles.productname	15	Axles	Axles
 productdefinition.bagofchips.productname	15	Bag Of Chips	감자칩
-productdefinition.beef.productname	15	Beef	Beef
-productdefinition.beefstew.productname	15	Beef Stew	Beef Stew
+productdefinition.beef.productname	15	Beef	소고기
+productdefinition.beefstew.productname	15	Beef Stew	소고기 스튜
 productdefinition.beer.productname	15	Beer	맥주
 productdefinition.berries.productname	15	Berries	베리
 productdefinition.berrypie.productname	15	Berry Pie	베리 파이
 productdefinition.berrysmoothie.productname	15	Berry Smoothie	베리 스무디
-productdefinition.biofuel.productname	15	Biofuel	Biofuel
+productdefinition.biofuel.productname	15	Biofuel	바이오 연료
 productdefinition.bodychassis.productname	15	Body Chassis	Body Chassis
 productdefinition.books.productname	15	Books	책
 productdefinition.bottles.productname	15	Bottles	병
@@ -640,12 +640,12 @@ productdefinition.cannedmutton.productname	15	Canned Mutton	양고기 통조림
 productdefinition.cans.productname	15	Cans	통조림 캔
 productdefinition.rawrubber.productname	15	Raw Rubber	생고무
 productdefinition.car.productname	15	Car Prototype	자동차
-productdefinition.cardboard.productname	15	Cardboard	Cardboard
-productdefinition.cardboardpanels.productname	15	Cardboard Panels	Cardboard Panels
-productdefinition.carradiator.productname	15	Car Radiator	Car Radiator
-productdefinition.carseat.productname	15	Car Seat	Car Seat
-productdefinition.ceramics.productname	15	Ceramics	Ceramics
-productdefinition.cheese.productname	15	Cheese	Cheese
+productdefinition.cardboard.productname	15	Cardboard	골판지
+productdefinition.cardboardpanels.productname	15	Cardboard Panels	골판지 판넬
+productdefinition.carradiator.productname	15	Car Radiator	자동차 라디에이터
+productdefinition.carseat.productname	15	Car Seat	자동차 시트
+productdefinition.ceramics.productname	15	Ceramics	세라믹
+productdefinition.cheese.productname	15	Cheese	치즈
 productdefinition.chemicals.productname	15	Chemicals	Chemicals
 productdefinition.chickenmeat.productname	15	Chicken Meat	닭고기
 productdefinition.chickensoup.productname	15	Chicken Soup	닭 수프
@@ -653,14 +653,14 @@ productdefinition.chocolatebar.productname	15	Chocolate Bar	초콜릿 바
 productdefinition.chocolatecake.productname	15	Chocolate Cake	초콜릿 케이크
 productdefinition.coal.productname	15	Coal	석탄
 productdefinition.cocoa.productname	15	Cocoa	코코아
-productdefinition.combustionengine.productname	15	Combustion Engine	Combustion Engine
-productdefinition.copper.productname	15	Copper	Copper
+productdefinition.combustionengine.productname	15	Combustion Engine	내연기관
+productdefinition.copper.productname	15	Copper	구리
 productdefinition.coppertubing.productname	15	Copper Tubing	Copper Tubing
-productdefinition.copperwire.productname	15	Copper Wire	Copper Wire
-productdefinition.cotton.productname	15	Cotton	Cotton
-productdefinition.deluxebooks.productname	15	Deluxe Books	Deluxe Books
+productdefinition.copperwire.productname	15	Copper Wire	구리전선
+productdefinition.cotton.productname	15	Cotton	솜
+productdefinition.deluxebooks.productname	15	Deluxe Books	양장제본 책
 productdefinition.diodes.productname	15	Diodes	Diodes
-productdefinition.dough.productname	15	Dough	도우
+productdefinition.dough.productname	15	Dough	밀가루 반죽
 productdefinition.dye.productname	15	Dye	염료
 productdefinition.eggs.productname	15	Eggs	달걀
 productdefinition.exteriorbody.productname	15	Exterior Body	Exterior Body
@@ -669,39 +669,39 @@ productdefinition.fish.productname	15	Fish	물고기
 productdefinition.flour.productname	15	Flour	밀가루
 productdefinition.furniturebase(l).productname	15	Furniture Base (L)	Furniture Base (L)
 productdefinition.furniturebase(s).productname	15	Furniture Base (S)	Furniture Base (S)
-productdefinition.gas.productname	15	Gas	Gas
-productdefinition.glass.productname	15	Glass	Glass
-productdefinition.grapejuice.productname	15	Grape Juice	Grape Juice
-productdefinition.grapes.productname	15	Grapes	Grapes
+productdefinition.gas.productname	15	Gas	천연가스
+productdefinition.glass.productname	15	Glass	유리
+productdefinition.grapejuice.productname	15	Grape Juice	포도 주스
+productdefinition.grapes.productname	15	Grapes	포도
 productdefinition.hardcider.productname	15	Hard Cider	Hard Cider
 productdefinition.headlights.productname	15	Headlights	Headlights
-productdefinition.heavyfabric.productname	15	Heavy Fabric	Heavy Fabric
-productdefinition.heavypulp.productname	15	Heavy Pulp	Heavy Pulp
+productdefinition.heavyfabric.productname	15	Heavy Fabric	두꺼운 원단
+productdefinition.heavypulp.productname	15	Heavy Pulp	펄프
 productdefinition.hops.productname	15	Hops	홉
 productdefinition.ink.productname	15	Ink	잉크
 productdefinition.interiorbody.productname	15	Interior Body	Interior Body
 productdefinition.interiorlining.productname	15	Interior Lining	Interior Lining
-productdefinition.ironore.productname	15	Iron Ore	Iron Ore
-productdefinition.leather.productname	15	Leather	Leather
-productdefinition.leatherfurniture.productname	15	Leather Furniture	Leather Furniture
-productdefinition.lightbulb.productname	15	Light Bulbs	Light Bulbs
-productdefinition.lightfabric.productname	15	Light Fabric	Light Fabric
-productdefinition.milk.productname	15	Milk	Milk
-productdefinition.mutton.productname	15	Mutton	Mutton
+productdefinition.ironore.productname	15	Iron Ore	철광석
+productdefinition.leather.productname	15	Leather	가죽
+productdefinition.leatherfurniture.productname	15	Leather Furniture	가죽 가구
+productdefinition.lightbulb.productname	15	Light Bulbs	전구
+productdefinition.lightfabric.productname	15	Light Fabric	얇은 원단
+productdefinition.milk.productname	15	Milk	우유
+productdefinition.mutton.productname	15	Mutton	양고기
 productdefinition.newspapers.productname	15	Newspapers	신문
-productdefinition.officefurniture.productname	15	Office Furniture	Office Furniture
+productdefinition.officefurniture.productname	15	Office Furniture	사무용 가구
 productdefinition.oil.productname	15	Oil	석유
 productdefinition.orangejuice.productname	15	Orange Juice	오렌지 주스
 productdefinition.oranges.productname	15	Oranges	오렌지
 productdefinition.orangesoda.productname	15	Orange Soda	오렌지 탄산음료
 productdefinition.oven.productname	15	Oven	오븐
-productdefinition.paint.productname	15	Paint	Paint
+productdefinition.paint.productname	15	Paint	페인트
 productdefinition.parchment.productname	15	Parchment	양피지
 productdefinition.pizza.productname	15	Pizza	피자
 productdefinition.plastic.productname	15	Plastic	플라스틱
-productdefinition.plasticfurniture.productname	15	Plastic Furniture	플라스틱 의자
-productdefinition.potato.productname	15	Potato	Potato
-productdefinition.printedpaper.productname	15	Printed Paper	Printed Paper
+productdefinition.plasticfurniture.productname	15	Plastic Furniture	플라스틱 가구
+productdefinition.potato.productname	15	Potato	감사
+productdefinition.printedpaper.productname	15	Printed Paper	인쇄된 종이
 productdefinition.radiator.productname	15	Radiator	Radiator
 productdefinition.radioreceiver.productname	15	Radio Receiver	라디오 수신기
 productdefinition.refinedoil.productname	15	Refined Oil	정제유
@@ -711,7 +711,7 @@ productdefinition.rubber.productname	15	Rubber	고무
 productdefinition.rubbertubes.productname	15	Rubber Tubes	고무관
 productdefinition.sand.productname	15	Sand	모래
 productdefinition.sodawater.productname	15	Soda Water	탄산수
-productdefinition.soup.productname	15	Soup	Soup
+productdefinition.soup.productname	15	Soup	스프
 productdefinition.steel.productname	15	Steel	강철@
 productdefinition.steelbarrel.productname	15	Steel Barrel	Steel Barrel
 productdefinition.steelframe.productname	15	Steel Frame	Steel Frame
@@ -726,25 +726,25 @@ productdefinition.water.productname	15	Water	물
 productdefinition.wheat.productname	15	Wheat	밀
 productdefinition.windows.productname	15	Windows	창문
 productdefinition.wine.productname	15	Wine	와인
-productdefinition.winterclothes.productname	15	Winter Clothes	Winter Clothes
+productdefinition.winterclothes.productname	15	Winter Clothes	겨울용 옷
 productdefinition.wood.productname	15	Wood	목재
-productdefinition.woodenbarrel.productname	15	Wooden Barrels	Wooden Barrels
-productdefinition.woodenplanks.productname	15	Wooden Planks	Wooden Planks
-productdefinition.wool.productname	15	Wool	Wool
-productdefinition.workclothes.productname	15	Work Clothes	Work Clothes
+productdefinition.woodenbarrel.productname	15	Wooden Barrels	나무 배럴
+productdefinition.woodenplanks.productname	15	Wooden Planks	나무 판자
+productdefinition.wool.productname	15	Wool	양털
+productdefinition.workclothes.productname	15	Work Clothes	작업용 옷
 productdefinition.yeast.productname	15	Yeast	효묘
-recipe.adhesive.title	15	Adhesive	Adhesive
+recipe.adhesive.title	15	Adhesive	테이프
 recipe.alternator.title	15	Alternator	Alternator
 recipe.apples.title	15	Apples	사과
 recipe.applesmoothie.title	15	Apple Smoothie	사과 스무디
 recipe.axles.title	15	Axles	Axles
 recipe.bagofchips.title	15	Bag Of Chips	감자칩
-recipe.beefstew.title	15	Beef Stew	Beef Stew
+recipe.beefstew.title	15	Beef Stew	소고기 스튜
 recipe.beer.title	15	Beer	맥주
 recipe.berries.title	15	Berries	베리
 recipe.berrypie.title	15	Berry Pie	베리 파이
 recipe.berrysmoothie.title	15	Berry Smoothie	베리 스무디
-recipe.biofuel.title	15	Biofuel	Biofuel
+recipe.biofuel.title	15	Biofuel	바이오 연료
 recipe.bodychassis.title	15	Body Chassis	Body Chassis
 recipe.books.title	15	Books	책
 recipe.bottles.title	15	Bottles	병
@@ -754,29 +754,29 @@ recipe.cannedfish.title	15	Canned Fish	물고기 통조림
 recipe.cannedmutton.title	15	Canned Mutton	양고기 통조림
 recipe.cans.title	15	Cans	통조림 캔
 recipe.rawrubber.title	15	Raw Rubber	생고무
-recipe.cardboard.title	15	Cardboard	Cardboard
-recipe.cardboardpanels.title	15	Cardboard Panels	Cardboard Panels
+recipe.cardboard.title	15	Cardboard	골판지
+recipe.cardboardpanels.title	15	Cardboard Panels	골판지 판넬
 recipe.carprototype.title	15	Car Prototype	자동차
-recipe.carradiator.title	15	Car Radiator	Car Radiator
-recipe.carseat.title	15	Car Seat	Car Seat
-recipe.ceramics.title	15	Ceramics	Ceramics
-recipe.cheese.title	15	Cheese	Cheese
+recipe.carradiator.title	15	Car Radiator	자동차 라디에이터
+recipe.carseat.title	15	Car Seat	자동차 시트
+recipe.ceramics.title	15	Ceramics	세라믹
+recipe.cheese.title	15	Cheese	치드
 recipe.chemicals.title	15	Chemicals	Chemicals
-recipe.chickens.title	15	Chickens	Chickens
+recipe.chickens.title	15	Chickens	닭
 recipe.chickensoup.title	15	Chicken Soup	닭 수프
 recipe.chocolatebar.title	15	Chocolate Bar	초콜릿 바
 recipe.chocolatecake.title	15	Chocolate Cake	초콜릿 케이크
 recipe.coalmine.title	15	Coal	석탄
 recipe.cocoas.title	15	Cocoas	Cocoas
-recipe.combustionengine.title	15	Combustion Engine	Combustion Engine
-recipe.coppermine.title	15	Copper	Copper
+recipe.combustionengine.title	15	Combustion Engine	내연기관
+recipe.coppermine.title	15	Copper	구리
 recipe.coppertubing.title	15	Copper Tubing	Copper Tubing
-recipe.copperwire.title	15	Copper Wire	Copper Wire
-recipe.cotton.title	15	Cotton	Cotton
-recipe.cows.title	15	Cows	Cows
-recipe.deluxebooks.title	15	Deluxe Books	Deluxe Books
+recipe.copperwire.title	15	Copper Wire	구리 전선
+recipe.cotton.title	15	Cotton	솜
+recipe.cows.title	15	Cows	소
+recipe.deluxebooks.title	15	Deluxe Books	양장제본 책
 recipe.diodes.title	15	Diodes	Diodes
-recipe.dough.title	15	Dough	도우
+recipe.dough.title	15	Dough	밀가루 반죽
 recipe.dye.title	15	Dye	염료
 recipe.exteriorbody.title	15	Exterior Body	Exterior Body
 recipe.fibers.title	15	Fibers	Fibers
@@ -784,25 +784,25 @@ recipe.fish.title	15	Fish	물고기
 recipe.flour.title	15	Flour	밀가루
 recipe.furniturebase(l).title	15	Furniture Base (L)	Furniture Base (L)
 recipe.furniturebase(s).title	15	Furniture Base (S)	Furniture Base (S)
-recipe.gaspump.title	15	Gas	Gas
-recipe.glass.title	15	Glass	Glass
-recipe.grapejuice.title	15	Grape Juice	Grape Juice
-recipe.grapes.title	15	Grapes	Grapes
+recipe.gaspump.title	15	Gas	천연가스
+recipe.glass.title	15	Glass	유리
+recipe.grapejuice.title	15	Grape Juice	포도 주스
+recipe.grapes.title	15	Grapes	포도
 recipe.hardcider.title	15	Hard Cider	Hard Cider
 recipe.headlights.title	15	Headlights	Headlights
-recipe.heavyfabric.title	15	Heavy Fabric	Heavy Fabric
-recipe.heavypulp.title	15	Heavy Pulp	Heavy Pulp
+recipe.heavyfabric.title	15	Heavy Fabric	두꺼운 원단
+recipe.heavypulp.title	15	Heavy Pulp	펄프
 recipe.hops.title	15	Hops	홉
 recipe.ink.title	15	Ink	잉크
 recipe.interiorbody.title	15	Interior Body	Interior Body
 recipe.interiorlining.title	15	Interior Lining	Interior Lining
 recipe.ironmine.title	15	Iron	철
 recipe.leatherfurniture.title	15	Leather Furnt	Leather Furnt
-recipe.lightbulb.title	15	Light Bulbs	Light Bulbs
-recipe.lightfabric.title	15	Light Fabric	Light Fabric
+recipe.lightbulb.title	15	Light Bulbs	전구
+recipe.lightfabric.title	15	Light Fabric	가벼운 원단
 recipe.lumberyard.title	15	Wood	목재
 recipe.newspapers.title	15	Newspapers	신문
-recipe.officefurniture.title	15	Office Furniture	Office Furniture
+recipe.officefurniture.title	15	Office Furniture	사무용 가구
 recipe.oildrill.title	15	Oil	석유
 recipe.oildrilloffshore.title	15	Oil	석유
 recipe.orangejuice.title	15	Orange Juice	오렌지 주스
@@ -813,7 +813,7 @@ recipe.paints.title	15	Paints	페인트
 recipe.parchment.title	15	Parchment	양피지
 recipe.pizza.title	15	Pizza	피자
 recipe.plastic.title	15	Plastic	플라스틱
-recipe.plasticfurniture.title	15	Plastic Furniture	플라스틱 의자
+recipe.plasticfurniture.title	15	Plastic Furniture	플라스틱 가구
 recipe.potatoes.title	15	Potatoes	감자
 recipe.printedpaper.title	15	Printed Paper	Printed Paper
 recipe.radiator.title	15	Radiator	Radiator
@@ -826,7 +826,7 @@ recipe.rubbertubes.title	15	Rubber Tubes	고무관
 recipe.sand.title	15	Sand	모래
 recipe.sheep.title	15	Sheep	양
 recipe.sodawater.title	15	Soda Water	탄산수
-recipe.soup.title	15	Soup	Soup
+recipe.soup.title	15	Soup	스프
 recipe.steel.title	15	Steel	강철@
 recipe.steelbarrels.title	15	Steel Barrels	Steel Barrels
 recipe.steelframe.title	15	Steel Frame	Steel Frame
@@ -841,10 +841,10 @@ recipe.water.title	15	Water	물
 recipe.wheat.title	15	Wheat	밀
 recipe.windows.title	15	Windows	창문
 recipe.wine.title	15	Wine	와인
-recipe.winterclothes.title	15	Winter Clothes	Winter Clothes
-recipe.woodenbarrel.title	15	Wooden Barrels	Wooden Barrels
-recipe.woodenplanks.title	15	Wooden Planks	Wooden Planks
-recipe.workclothes.title	15	Work Clothes	Work Clothes
+recipe.winterclothes.title	15	Winter Clothes	겨울용 옷
+recipe.woodenbarrel.title	15	Wooden Barrels	나무 배럴
+recipe.woodenplanks.title	15	Wooden Planks	나무 판자
+recipe.workclothes.title	15	Work Clothes	작업용 옷
 recipe.yeast.title	15	Yeast	효묘
 resourcenode.coalore.objectlabeltext	30	COAL	석탄
 resourcenode.copperore.objectlabeltext	30	COPPER ORE	구리광석

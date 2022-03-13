@@ -237,7 +237,7 @@ mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.sandboxmode
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.sandboxmode.descriptiontext	0	Expand your horizons without worrying about Money, Tech Tree or Regions. Just set your own difficulty and go!	돈, 기술 계통도, 지역 확장에 대한 걱정 없이 한계를 돌파해 보세요! 단지 당신만의 난이도가 있을 뿐입니다.
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.tutorialmode.titletext	0	Tutorial	튜토리얼
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.tutorialmode.descriptiontext	0	Get a leg up on the competition and learn the basics of Rise of Industry.	Rise of Industry의 기초를 배워 경쟁을 장악하세요.
-mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.modmanager.titletext	0	Mod Manager	모드 매니저
+mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.modmanager.titletext	0	Mod Manager 모드 매니저
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.modmanager.descriptiontext	0	Manage the Rise of Industry mods you want to load.	불러오고 싶은 Rise of Industry의 모드를 관리합니다
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.videohelp2130.titletext	0	2130 Dev Update	2130 개발 업데이트
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.buttonarea.fullgame.videohelp2130.descriptiontext	0	Welcome to the future.	미래에 오신걸 환영합니다.
@@ -3364,7 +3364,7 @@ scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.chang
 scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.optionaltoggle.tooltip	0	Mandatory Objective	필수 목표
 tutorial.step0.description	0	Welcome to Rise of Industry! A game about testing your entrepreneurial skills. Here are some instructions to give you a head start!	Rise of Industry에 오신 것을 환영합니다! 이 게임에서 기업가의 재능을 테스트 해 볼 수 있습니다. 시작에 도움이 되는 몇 가지를 알아보겠습니다.
 tutorial.step1.description	0	To start off, let us learn how to move around and use the camera. Use the Keyboard and Mouse to Pan, Zoom, and Rotate the Camera. Holding Shift speeds up the movement.	우선 시점을 변경하는 방법을 배워 보겠습니다. 키보드와 마우스를 이용해 시점을 이동, 확대/축소, 회전할 수 있습니다.
-tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	(button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
+tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	{button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
 tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 이동하세요
 tutorial.step1.objective2.description	0	Use {button:RotateCameraLeft} and {button:RotateCameraRight} to Rotate	{button:RotateCameraLeft}와 {button:RotateCameraRight}를 이용하여 시점을 회전하세요
 tutorial.step1.objective3.description	0	Use {button:CameraZoomAxis} or {button:CameraZoomIn} and {button:CameraZoomOut} to Zoom	{button:CameraZoomAxis}나 {button:CameraZoomIn}/{button:CameraZoomOut}를 이용하여 시점을 확대/축소하세요
@@ -3396,7 +3396,7 @@ tutorial.step12.objective1.description	0	Place one Coal Mine	하나의 석탄 �
 tutorial.step12.objective2.description	0	Place three Coal Mine Harvesters	세개의 석탄 광산 수확기 배치
 tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건물 패널 닫기
 tutorial.step13.description	0	Lumberyard Harvesters have an area of effect, where it will select up to 4 Trees closest to them for exclusive use. For each Tree reserved, it will increase its Production Rate by 25%.	제재소는 단독으로 사용하기 위해 가장 가까운 4그루의 나무를 선택할 수 있는 영역효과가 있습니다. 나무가 포함될 때마다 생산률이 25% 증가합니다.
-tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
+tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 자원 건물 탭 열기
 tutorial.step13.objective1.description	0	Place a Lumberyard	제재소 배치
 tutorial.step13.objective2.description	0	Place 3 Lumberyard Harvester	3개의 제재소 수확기 배치하기
 tutorial.step13.objective3.description	0	Close Lumberyard Building Panel	제재소 건설 패널을 닫기
@@ -5242,8 +5242,8 @@ WorldOptionFloat.riverFrequency.valueNames.element0	0	None	없음
 WorldOptionFloat.riverFrequency.valueNames.element1	0	Low	낮음
 WorldOptionFloat.riverFrequency.valueNames.element2	0	Medium	중간
 WorldOptionFloat.riverFrequency.valueNames.element3	0	High	높음
-worldoptionfloat.riverfrequency.displayname	0	River Curvature	River Curvature
-worldoptionfloat.riverfrequency.description	0	Changes the curvature of rivers.	Changes the curvature of rivers.
+worldoptionfloat.riverfrequency.displayname	0	River Curvature	강 굴곡 수치
+worldoptionfloat.riverfrequency.description	0	Changes the curvature of rivers.	강의 굴곡 수치를 조절합니다.
 WorldOptionInt.resourceRichness.valueNames.element0	0	Low	낮음
 WorldOptionInt.resourceRichness.valueNames.element1	0	Medium	중간
 WorldOptionInt.resourceRichness.valueNames.element2	0	High	높음
@@ -7015,7 +7015,7 @@ scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.chang
 scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.optionaltoggle.tooltip	0	Mandatory Objective	필수 목표
 tutorial.step0.description	0	Welcome to Rise of Industry! A game about testing your entrepreneurial skills. Here are some instructions to give you a head start!	Rise of Industry에 오신 것을 환영합니다! 이 게임에서 기업가의 재능을 테스트 해 볼 수 있습니다. 시작에 도움이 되는 몇 가지를 알아보겠습니다.
 tutorial.step1.description	0	To start off, let us learn how to move around and use the camera. Use the Keyboard and Mouse to Pan, Zoom, and Rotate the Camera. Holding Shift speeds up the movement.	우선 시점을 변경하는 방법을 배워 보겠습니다. 키보드와 마우스를 이용해 시점을 이동, 확대/축소, 회전할 수 있습니다.
-tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	(button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
+tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	{button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
 tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 이동하세요
 tutorial.step1.objective2.description	0	Use {button:RotateCameraLeft} and {button:RotateCameraRight} to Rotate	{button:RotateCameraLeft}와 {button:RotateCameraRight}를 이용하여 시점을 회전하세요
 tutorial.step1.objective3.description	0	Use {button:CameraZoomAxis} or {button:CameraZoomIn} and {button:CameraZoomOut} to Zoom	{button:CameraZoomAxis}나 {button:CameraZoomIn}/{button:CameraZoomOut}를 이용하여 시점을 확대/축소하세요
@@ -7030,7 +7030,7 @@ tutorial.step4.objective2.description	0	Win the Auction	경매에 승리
 tutorial.step4.objective3.description	0	Close Chapwick Town Center Panel	채프윅 시청 패널 닫기
 tutorial.step5.description	0	If you scan the map a little, you can find the other companies on the map. They have the same abilities we do and are trying to do the same thing you're doing, so be careful.	지도를 조금만 탐색하면 곧 다른 회사를 찾을 수 있습니다. 그들은 우리와 같은 능력을 가지고 있으며 당신이 하는 것과 같은 일을 하려 할 것입니다. 따라서 주의하십시오. 
 tutorial.step6.description	0	Now let us start building our first Production line. First, we need a Water Siphon to collect the Raw Resource: Water.	이제 첫 번째 생산 라인의 구축을 시작하겠습니다. 먼저, 원료 자원인 물을 수집하기 위해 취수장이 필요합니다. 
-tutorial.step6.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
+tutorial.step6.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 자원 건물 탭 열기
 tutorial.step7.description	0	A Water Siphon, like other Gatherers, collects raw resources to be used in Farms and Factories to generate other Products.	취수장은 다른 수집기와 마찬가지로 농장과 공장에서 다른 제품을 생산하는 데 사용될 원자재를 수집합니다.
 tutorial.step7.objective0.description	0	Select Water Siphon in the Construction Bar.	건설 바에서 취수장 선택
 tutorial.step7.objective1.description	0	Place a Water Siphon in the highlighted area.	취수장을 강조된 지역에 설치하기
@@ -7047,7 +7047,7 @@ tutorial.step12.objective1.description	0	Place one Coal Mine	하나의 석탄 �
 tutorial.step12.objective2.description	0	Place three Coal Mine Harvesters	세개의 석탄 광산 수확기 배치
 tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건물 패널 닫기
 tutorial.step13.description	0	Lumberyard Harvesters have an area of effect, where it will select up to 4 Trees closest to them for exclusive use. For each Tree reserved, it will increase its Production Rate by 25%.	제재소는 단독으로 사용하기 위해 가장 가까운 4그루의 나무를 선택할 수 있는 영역효과가 있습니다. 나무가 포함될 때마다 생산률이 25% 증가합니다.
-tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
+tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 자원 건물 탭 열기
 tutorial.step13.objective1.description	0	Place a Lumberyard	제재소 배치
 tutorial.step13.objective2.description	0	Place 3 Lumberyard Harvester	3개의 제재소 수확기 배치하기
 tutorial.step13.objective3.description	0	Close Lumberyard Building Panel	제재소 건물 패널을 닫기

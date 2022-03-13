@@ -525,7 +525,7 @@ buildingcategory.headquarters.categoryname	0	Headquarters	본사
 buildingcategory.heavyindustry.categoryname	0	Heavy Industry	중공업
 buildingcategory.landgatherers.categoryname	0	Land-Based Gatherers	육상 자원 건물
 buildingcategory.lightindustry.categoryname	0	Light Industry	경공업
-buildingcategory.logisticsbuildings.categoryname	0	Logistics Buildings	물류 건물
+buildingcategory.logisticsbuildings.categoryname	0	Logistics Buildings	창고
 buildingcategory.offshoregatherers.categoryname	0	Offshore Gatherers	연안 자원 건물
 buildingcategory.pollutionmanagement.categoryname	0	Pollution Management	오염 관리 건물
 buildingcategory.prototypefactories.categoryname	0	Prototype Factories	프토로타입 공장 건물
@@ -828,9 +828,9 @@ warehouseincomingmodule.gatheredareawrapper.noincomingarea.text	0	No Products In
 buildingpanelmodule.warehouseoutgoingmodule.modulename	0	OUTGOING PRODUCTS	출하 상품
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element0.name	0	Equally	균등하게
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element0.tooltip	0	Distribute to Producers and Shops equally	생산자나 상점에 균등하게 분배
-warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.name	0	+Shops	+상점
+warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.name	0	+Shops	+상점 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.tooltip	0	Prioritise Shops	상점 우선
-warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.name	0	+Users	+생산자
+warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.name	0	+Users	+생산자 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.tooltip	0	Prioritise Producers	생산자 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element3.name	0	Only shops	상점 한정
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element3.tooltip	0	Don't send anything to Producers	생산자에게 아무것도 보내지 않음
@@ -863,7 +863,7 @@ buildingselectioncategorygroup.commercial.groupname	0	Commercial	상점
 buildingselectioncategorygroup.contractsevents.groupname	0	Contracts	계약
 buildingselectioncategorygroup.factories.groupname	0	Factories	공장
 buildingselectioncategorygroup.gatherers.groupname	0	Gatherers	자원 건물
-buildingselectioncategorygroup.logistics.groupname	0	Logistics	물류 건물
+buildingselectioncategorygroup.logistics.groupname	0	Logistics	창고
 buildingselectioncategorygroup.pollution.groupname	0	Pollution	공해
 buildingselectioncategorygroup.state.groupname	0	State	연방
 buildingselectioncategorygroup.trainterminals.groupname	0	Trains	열차
@@ -887,7 +887,7 @@ constructionbarcommand.eyedropperconbarcommand.commandname	0	Duplicate	복제
 constructionbarcommand.factoriesconbarcommand.commandname	0	Factories	공장
 constructionbarcommand.farmsconbarcommand.commandname	0	Farms	농장
 constructionbarcommand.gatherersconbarcommand.commandname	0	Gatherers	자원 건물
-constructionbarcommand.logisticsconbarcommand.commandname	0	Logistics	물류 건물
+constructionbarcommand.logisticsconbarcommand.commandname	0	Logistics	창고
 constructionbarcommand.networksconbarcommand.commandname	0	Networks	네트워크
 constructionbarcommand.overpassesconbarcommand.commandname	0	Bridges & Tunnels	다리 & 터널
 constructionbarcommand.pollutionconbarcommand.commandname	0	Pollution	공해
@@ -927,7 +927,7 @@ difficultyoptionbool.infiniteresources.description	0	Allows for resource nodes t
 DifficultyOptionBool.terraforming.valueNames.element0	0	Yes	네
 DifficultyOptionBool.terraforming.valueNames.element1	0	No	아니오
 difficultyoptionbool.terraforming.displayname	0	Terraforming	테라포밍
-difficultyoptionbool.terraforming.description	0	Enables Terraforming.	지형편집을 허용합니다
+difficultyoptionbool.terraforming.description	0	Enables Terraforming.	지형 편집을 허용합니다
 DifficultyOptionBool.traffic.valueNames.element0	0	No	아니오
 DifficultyOptionBool.traffic.valueNames.element1	0	Yes	네
 difficultyoptionbool.traffic.displayname	0	Traffic	실제같은 교통상황
@@ -1036,7 +1036,7 @@ helpinfo.gamestart.info	0	Welcome to Rise of Industry! Let's begin by placing th
 helpinfo.gathererbuildmode.info	0	When placing a Gatherer, keep in mind that the wanted Resource (Coal, Oil, Water, etc) needs to be in range of its Area of Effect (AoE). The main building (Hub) only serves as a connection to the world, and it's the modules (Harvesters) that actually grab the Resources.	수확기를 배치할 때 원하는 자원(석탄, 석유, 물 등)이 효과 범위(AoE) 내에 있어야 한다는 점을 염두에 두십시오. 본관(허브)은 세계와의 연결 역할만을 하며, 실제로 자원을 채집하는 것은 모듈(수확기)입니다. 
 helpinfo.gathererisharvestingaresourcenodewith0quantityleft.info	0	Looks like a Gatherer has depleted a Resource Node. Don't despair, as the production isn't completely stalled, it will harvest at a minimum 25% production rate. If you increase the Building Efficiency to 200%, you can still harvest at 50% rate.	채집기가 자원 노드를 고갈시킨 것 같습니다. 생산이 완전히 중단된 것은 아니며 최소 25%로 수확할 것이므로 절망하지 마십시오. 건물 효율을 200%로 올려도 여전히 50%의 비율로 수확할 수 있습니다. 
 helpinfo.houseiskilled.info	0	Oh no! A Settlement's Population has decreased due to Pollution. You will need to build some Pollution Management buildings to clean up some of the Map if you don't want it to spread further.	오 이런! 공해로 인해 정착지의 인구가 감소했습니다. 지도에 더 퍼지는 것을 원치 않으면 공해 관리 건물을 건설해야 합니다. 
-helpinfo.logisticconbaropened.info	0	Here you can find all the Logistic buildings. The most important one, the Warehouse, automatically gathers and redistributes Products from/to every building in its Radius. Try to put Production Buildings all around it for maximum efficiency.	여기에서 모든 물류 건물을 찾을 수 있습니다. 가장 중요한 창고는 반경에 있는 모든 건물에서 자동으로 제품을 수집하고 재배포합니다. 최대 효율성을 위해 주변에 생산 건물을 배치하십시오. 
+helpinfo.logisticconbaropened.info	0	Here you can find all the Logistic buildings. The most important one, the Warehouse, automatically gathers and redistributes Products from/to every building in its Radius. Try to put Production Buildings all around it for maximum efficiency.	여기에서 모든 창고을 찾을 수 있습니다. 가장 중요한 창고는 반경에 있는 모든 건물에서 자동으로 제품을 수집하고 재배포합니다. 최대 효율성을 위해 주변에 생산 건물을 배치하십시오. 
 helpinfo.openglobalmarket.info	0	This Panel allows you to see the current base value of every Product according to the State. Clicking a Product here will open its corresponding entry in the Recipe Book.	이 패널을 사용하면 상태에 따라 모든 제품의 현재 기본 가치를 볼 수 있습니다. 여기에서 제품을 클릭하면 레시피 북에서 해당 항목이 열립니다. 
 helpinfo.openhqpenel.info	0	From here you can manage loans. You can also change the Headquarters appearance once you unlock more tech!	여기에서 대출을 관리할 수 있습니다. 더 많은 기술을 잠금 해제하면 본사의 모양을 변경할 수도 있습니다! 
 helpinfo.openlogisticspanel.info	0	Once you start placing Trade Depots near Warehouses, you can start setting up Trade Routes to move product across the map. You create the Request in Warehouses but you can manage them from this panel.	창고 근처에 무역 창고를 배치하면 무역로를 설정하여 지도를 가로질러 제품을 이동할 수 있습니다. 창고에서 요청을 생성하지만 이 패널에서 관리할 수도 있습니다. 
@@ -1080,9 +1080,9 @@ helpinfo.watertowerplaced.info	0	This building works a lot like a Warehouse exce
 helpinfo.zeppelinstationplaced.info	0	Zeppelins can't move that much Product, but they also don't require any Roads or Tracks to work since they glide above everything. Make sure you place this building near a Warehouse to be able to make Requests in its Request Tab.	체펠린은 많은 제품을 운반할 수 없지만 모든 것 위로 활공하기 때문에 작동하는 데 도로나 철로가 필요하지 않습니다. 요청 탭에서 요청을 할 수 있도록 이 건물을 창고 근처에 두십시오. 
 inownerwaterbodyrestriction.inownerwaterbody.validationerror	0	CAN'T REACH HUB	허브에 접근할 수 없습니다
 inputbutton.brushdecreasesize.displayname	0	Decrease Brush Size	브러시 크기를 줄입니다
-inputbutton.brushdecreasesize.description	0	Press to decrease the terraforming bursh size.	눌러서 지형편집 브러시 크기를 줄일 수 있습니다.
+inputbutton.brushdecreasesize.description	0	Press to decrease the terraforming bursh size.	눌러서 지형 편집 브러시 크기를 줄일 수 있습니다.
 inputbutton.brushincreasesize.displayname	0	Increase Brush Size	브러시 크기를 늘립니다
-inputbutton.brushincreasesize.description	0	Press to increase the terraforming brush size.	눌러서 지형편집 브러시 크기를 늘릴 수 있습니다.
+inputbutton.brushincreasesize.description	0	Press to increase the terraforming brush size.	눌러서 지형 편집 브러시 크기를 늘릴 수 있습니다.
 inputbutton.buildresourcehotkey.displayname	0	Build Resource Hotkey	자재 단축기 만들기
 inputbutton.buildresourcehotkey.description	0	Press to open the resource construction bar.	자재 건설 바를 열려면 누릅니다.
 inputbutton.camerafastmovement.displayname	0	Fast Movement Modifier	빠른 이동 배율
@@ -1150,7 +1150,7 @@ inputbutton.quickload.displayname	0	Quick Load	빠른 불러오기
 inputbutton.quickload.description	0	Press to quickly load the game.	눌러서 빠르게 게임을 불러옵니다
 inputbutton.quicksave.displayname	0	Quick Save	빠른 저장
 inputbutton.quicksave.description	0	Press to quickly save the game.	눌러서 빠르게 게임을 저장합니다
-inputbutton.raiselowerhotkey.displayname	0	Raise / Lower Terrain	지형편집 상승/하강
+inputbutton.raiselowerhotkey.displayname	0	Raise / Lower Terrain	지형 편집 상승/하강
 inputbutton.raiselowerhotkey.description	0	Press to enable rasing and lowering terrain mode.	지형모드에서 지대를 높이거나 낮추려면 누르십시오.
 inputbutton.regiontoggle.displayname	0	Region Toggle	지역 스위치
 inputbutton.regiontoggle.description	0	Press to toggle region guides.	눌러서 지역 가이드를 끄거나 켭니다
@@ -1227,7 +1227,7 @@ moneybillcategory.researchrefund.categoryname	0	R&D Refund	연구개발비 환�
 moneybillcategory.routevehicleupkeep.categoryname	0	Route Vehicle Upkeep	경로 차량 유지비
 moneybillcategory.starterloanbillcategory.categoryname	0	Starter Loan	초기 대출
 moneybillcategory.stockspurchase.categoryname	0	Stocks Purchase	주식 구매
-moneybillcategory.terraformingbillcategory.categoryname	0	Terraforming	지형편집
+moneybillcategory.terraformingbillcategory.categoryname	0	Terraforming	지형 편집
 moneybillcategory.upkeep.categoryname	0	Renting	대여
 moneybillcategory.vehicles.categoryname	0	Vehicles	차량
 moneybillcategory.vehicleupkeep.categoryname	0	Vehicle Upkeep	차량 유지비
@@ -1323,7 +1323,7 @@ prandmarketingeventdefinition.loansinterestprandmarketingevent.eventdescription	
 prandmarketingeventdefinition.loanspaymentprandmarketingevent.eventdescription	0	Monthly payments of all existing and new loans reduced by {payment}% for {duration} months	{duration} 개월 동안 모든 기존 및 신규 대출의 월별 상환액이 {payment}% 감소합니다. 
 prandmarketingeventdefinition.productdemandprandmarketingevent.eventdescription	0	Demand of {product} +{demand}% for {duration} months	{duration} 개월 동안에 {product} + {demand}% 
 prandmarketingeventdefinition.productpriceprandmarketingevent.eventdescription	0	Price of {product} +{price}% for {duration} months	{duration} 개월 동안 {product} 의 가격이 +{price}% 
-prandmarketingeventdefinition.terraformingcostprandmarketingevent.eventdescription	0	Cost of terraforming reduced by {cost}% for {duration} months	{duration}개월 동안 지형편집 비용이 {cost}% 감소합니다. 
+prandmarketingeventdefinition.terraformingcostprandmarketingevent.eventdescription	0	Cost of terraforming reduced by {cost}% for {duration} months	{duration}개월 동안 지형 편집 비용이 {cost}% 감소합니다. 
 prandmarketingeventdefinition.vehiclespeedprandmarketingevent.eventdescription	0	Trucks speed increased by {modifier}% for {duration} months	{duration}개월 동안 트럭의 이동 속도가 {modifier}% 증가합니다. 
 preset.custom.displayname	0	Custom	커스텀
 preset.newcomer.displayname	0	Newcomer	신입
@@ -1568,8 +1568,8 @@ techtreebuildingunlock.boatdepot.unlockname	0	Boat Depot	선박 창고
 techtreebuildingunlock.boatdepot.description	0	Can build Boat Depots	선박 창고를 건설할 수 있습니다
 techtreebuildingunlock.zeppelinfield.unlockname	0	Zeppelin Field	체펠린 이착륙장
 techtreebuildingunlock.zeppelinfield.description	0	Can build Zeppelin Fields	체펠린 이착륙장을 건설할 수 있습니다
-techtreebuildingunlock.trainterminal.unlockname	0	Train Terminal	열차 정거장
-techtreebuildingunlock.trainterminal.description	0	Can build Train Terminals and rails	열차 정거장과 철로를 건설할 수 있습니다
+techtreebuildingunlock.trainterminal.unlockname	0	Train Terminal	열차 터미널
+techtreebuildingunlock.trainterminal.description	0	Can build Train Terminals and rails	열차 터미널과 철로를 건설할 수 있습니다
 techtreebuildingunlock.watersiphon.unlockname	0	Water Siphon	수자원 추출기
 helppanelcategory.controls.name	0	Controls	컨트롤
 campaignconfig.assistantcampaign.campaignname	0	Main Campaign	
@@ -1736,7 +1736,7 @@ notificationspecification.pathnotfoundgoingback.message	0	CANNOT GO BACK TO ORIG
 notificationspecification.pathnotfoundgoingback.description	0	%b	%b
 notificationspecification.cannotcomebackfromwarehouse.message	0	CANNOT COME BACK FROM WAREHOUSE	창고로 되돌아갈 수 없음
 notificationspecification.cannotcomebackfromwarehouse.description	0	%b	%b
-building.airpurifier.buildingname	0	Air Purifier	공기 청정기
+building.airpurifier.buildingname	0	Air Purifier	기공기 집진기
 building.airpurifier.description	0	The Air Purifier uses Water, collected from a Water Siphon or Water Well, to clean the surrounding area of Pollution.	공기청정기는 취수장이나 지하수 관정에서 채취한 물을 사용하여 공해에 오염된 주변 지역을 청소합니다. 
 building.applesfield.buildingname	0	APPLE FIELD	사과밭
 building.automotivefactory.buildingname	0	AUTOMOTIVE FACTORY	자동차 공장
@@ -1816,7 +1816,7 @@ building.ironmongerystore.buildingname	0	Ironmongery	철물점
 building.liquorstore.buildingname	0	Liquor Store	주류판매점
 building.livestockfarm.buildingname	0	LIVESTOCK FARM	축산 농장
 building.livestockfarm.description	0	The Livestock Farm allows you to use fields to generate Chickens, Cows, and Sheep.	축산 농장에서는 필드를 사용하여 닭, 소, 양을 생성할 수 있습니다. 
-building.lumberyardgatherer.buildingname	0	LUMBERYARD	재제소
+building.lumberyardgatherer.buildingname	0	LUMBERYARD	제재소
 building.lumberyardgatherer.description	0	The Lumberyard uses Harvesters to collect units of Wood from nearby Trees. After harvesting a Tree, it will plant a Sapling in its place.	제재소는 수확기를 사용하여 근처 나무에서 목재를 수집합니다. 나무를 수확한 후 그 자리에 묘목을 심을 것입니다. 
 building.lumberyardharvester.buildingname	0	LUMBERYARD HARVESTER	제재소 수확기
 building.oildrillharvester.buildingname	0	OIL DRILL HARVESTER	석유 시추 수확기
@@ -2326,8 +2326,8 @@ staticworldeventdata.winter.eventname	0	Winter	겨울
 staticworldeventdata.winter.description	0	Winter is here.	겨울이 왔습니다
 staticworldeventdata.workman'sgrant.eventname	0	Workman's Grant	노동자 보조금
 staticworldeventdata.workman'sgrant.description	0	You are getting a monthly stipend from a Government Program to allow you to hire more workers.	당신은 더 많은 직원을 고용할 수 있도록 정부 프로그램 으로부터 월 급여를 받고 있습니다. 
-techtreebuildingunlock.airpurifier.unlockname	0	Air Purifier	공기 청정기
-techtreebuildingunlock.airpurifier.description	0	Can build Air Purifiers	공기 청정기를 건설할 수 있습니다
+techtreebuildingunlock.airpurifier.unlockname	0	Air Purifier	기공기 집진기
+techtreebuildingunlock.airpurifier.description	0	Can build Air Purifiers	기공기 집진기를 건설할 수 있습니다
 techtreebuildingunlock.brewery&distillery.unlockname	0	Brewery & Distillery	양조장 & 증류소
 techtreebuildingunlock.carprototypefacility.unlockname	0	Car Prototype Facility	시제 자동차 공장
 techtreebuildingunlock.carprototypefacility.description	0	Can build Car Prototype Facility	시제 자동차 공장을 건설할 수 있습니다
@@ -3292,14 +3292,14 @@ localizedtexttable.localizedtexttable.startingup	0	Starting Up	시작하는 중
 localizedtexttable.localizedtexttable.cannotafford	0	Cannot afford!	여유 없음
 localizedtexttable.localizedtexttable.cannotbuildhereerror	0	Cannot build here!	여기에 건설 불가!
 localizedtexttable.localizedtexttable.cannotconnecterror	0	Cannot connect! {0} -> {1}	{0} -> {1}로 연결할 수 없습니다!
-localizedtexttable.localizedtexttable.cannotterraform	0	Cannot terraform!	지형편집이 불가능합니다!
+localizedtexttable.localizedtexttable.cannotterraform	0	Cannot terraform!	지형 편집이 불가능합니다!
 localizedtexttable.localizedtexttable.emptypatherror	0	Path is empty!	경로가 비었습니다!
 localizedtexttable.localizedtexttable.invalidplacement	0	Can't place here!\n<color=#AA7326FF>{0}</color>	여기에 설치할 수 없습니다!\n<color=#AA7326FF>{0}</color>
 localizedtexttable.localizedtexttable.logisticalpermitrequirederror	0	Permit required!	권한이 필요합니다!
 localizedtexttable.localizedtexttable.missingpermit	0	Missing permit!	권한이 없음!
 localizedtexttable.localizedtexttable.overpassblockederror	0	Overpass blocked by terrain or building!	고가도로는 지형 또는 건물에 의해 막혀있습니다!
 localizedtexttable.localizedtexttable.placingpath	0	{2}\n{0} Tiles: {1}	{2}\n{0} 타일: {1}
-localizedtexttable.localizedtexttable.terraformingblocked	0	Tiles are blocked! Cannot terraform!	타일이 막혔습니다!지형편집 불가!
+localizedtexttable.localizedtexttable.terraformingblocked	0	Tiles are blocked! Cannot terraform!	타일이 막혔습니다!지형 편집 불가!
 buildingefficiency.helpbutton.tooltip	0	Help	도움말
 buildingefficiency.titletext	0	Workers Salary	작업자 급여
 buildingefficiency.buttonarea.value.background	0	<color=#C87C0D>{efficiencyValue}%</color>\nBuilding Upkeep <color=#C87C0D>{upkeep} ({upkeepModifier}%)</color>\nProduction Time <color=#C87C0D>{productionTime} Days ({productionTimeModifier}%)</color>\nPollution <color=#C87C0D>{pollution} / Day ({pollutionModifier}%)</color>	<color=#C87C0D>{efficiencyValue}%</color>\n건물 유지비용 <color=#C87C0D>{upkeep} ({upkeepModifier}%)</color>\n생산 시간 <color=#C87C0D>{productionTime} 일 ({productionTimeModifier}%)</color>\n공해 <color=#C87C0D>{pollution} / 일 ({pollutionModifier}%)</color>
@@ -3342,7 +3342,7 @@ assetsauctioninfo.title.titletext	0	{competitor} Assets	{competitor} 자산
 assetsauctioninfo.infoareabuildings(1).building.tooltip	0	GATHERERS	수집기
 assetsauctioninfo.infoareabuildings(1).building(1).tooltip	0	FARMS	농장
 assetsauctioninfo.infoareabuildings(1).building(2).tooltip	0	FACTORIES	공장
-assetsauctioninfo.infoareabuildings(1).building(3).tooltip	0	LOGISTICAL BUILDINGS	물류 건물
+assetsauctioninfo.infoareabuildings(1).building(3).tooltip	0	LOGISTICAL BUILDINGS	창고
 assetsauctioninfo.infoareabuildings(1).building(4).tooltip	0	POLLUTION BUILDINGS	공해 건물
 assetsauctioninfo.infoareabuildings(1).building(4).amount.headertitle(1)	0	555	555
 assetsauctioninfo.regions.titletext	0	Regions	지역
@@ -3365,7 +3365,7 @@ scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.optio
 tutorial.step0.description	0	Welcome to Rise of Industry! A game about testing your entrepreneurial skills. Here are some instructions to give you a head start!	Rise of Industry에 오신 것을 환영합니다! 이 게임에서 기업가의 재능을 테스트 해 볼 수 있습니다. 시작에 도움이 되는 몇 가지를 알아보겠습니다.
 tutorial.step1.description	0	To start off, let us learn how to move around and use the camera. Use the Keyboard and Mouse to Pan, Zoom, and Rotate the Camera. Holding Shift speeds up the movement.	우선 시점을 변경하는 방법을 배워 보겠습니다. 키보드와 마우스를 이용해 시점을 이동, 확대/축소, 회전할 수 있습니다.
 tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	(button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
-tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 회전하세요
+tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 이동하세요
 tutorial.step1.objective2.description	0	Use {button:RotateCameraLeft} and {button:RotateCameraRight} to Rotate	{button:RotateCameraLeft}와 {button:RotateCameraRight}를 이용하여 시점을 회전하세요
 tutorial.step1.objective3.description	0	Use {button:CameraZoomAxis} or {button:CameraZoomIn} and {button:CameraZoomOut} to Zoom	{button:CameraZoomAxis}나 {button:CameraZoomIn}/{button:CameraZoomOut}를 이용하여 시점을 확대/축소하세요
 tutorial.step2.description	0	To build in a Region that you don’t control, you need a permit. It’s not as easy as just buying it, as there’s a free market. You can start an Auction and bid enough to gain control of it.	당신이 통제하지 않는 지역에 건설을 하려면 허가가 필요합니다. 자유 시장의 존재로 그냥 사는 것만큼은 쉽지 않습니다. 경매를 시작하고 경매를 통제할 수 있을 만큼 충분히 입찰금을 지불하십시오. 
@@ -3379,39 +3379,39 @@ tutorial.step4.objective2.description	0	Win the Auction	경매에 승리
 tutorial.step4.objective3.description	0	Close Chapwick Town Center Panel	채프윅 시청 패널 닫기
 tutorial.step5.description	0	If you scan the map a little, you can find the other companies on the map. They have the same abilities we do and are trying to do the same thing you're doing, so be careful.	지도를 조금만 탐색하면 곧 다른 회사를 찾을 수 있습니다. 그들은 우리와 같은 능력을 가지고 있으며 당신이 하는 것과 같은 일을 하려 할 것입니다. 따라서 주의하십시오. 
 tutorial.step6.description	0	Now let us start building our first Production line. First, we need a Water Siphon to collect the Raw Resource: Water.	이제 첫 번째 생산 라인의 구축을 시작하겠습니다. 먼저, 원료 자원인 물을 수집하기 위해 취수장이 필요합니다. 
-tutorial.step6.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
+tutorial.step6.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 자원 건물 탭 열기
 tutorial.step7.description	0	A Water Siphon, like other Gatherers, collects raw resources to be used in Farms and Factories to generate other Products.	취수장은 다른 수집기와 마찬가지로 농장과 공장에서 다른 제품을 생산하는 데 사용될 원자재를 수집합니다.
 tutorial.step7.objective0.description	0	Select Water Siphon in the Construction Bar.	건설 바에서 취수장 선택
 tutorial.step7.objective1.description	0	Place a Water Siphon in the highlighted area.	취수장을 강조된 지역에 설치하기
 tutorial.step8.description	0	After placing the Water Siphon, it will need a few Harvesters placed. A Harvester collects a Raw Resource and brings it back to the Gatherer. You may need to rotate the Harvester to place it.	취수장을 배치한 후 몇 개의 수확기를 배치해야 합니다. 수확기는 원자재를 수집하여 채집기에 다시 가져옵니다. 이를 배치하기 위해서는 수확기를 회전시켜야 할 수도 있습니다. 
 tutorial.step8.objective0.description	0	Place 2 Harvesters in highlighted area	2개의 수확기를 강조된 지역에 설치한다
 tutorial.step9.description	0	Now we need to place Roads to get the Water to the Water Siphon. Roads are the only way Trucks move across the Map. If a Road is not connected, it will have a roadblock at the end.	이제 취수장으로 물을 가져오기 위해 도로를 배치해야 합니다. 도로는 트럭이 지도를 가로질러 이동할 수 있는 유일한 방법입니다. 도로가 연결되어 있지 않으면 끝에 장애물이 생깁니다. 
-tutorial.step9.objective0.description	0	Open Road Construction Panel	도로 건설 패널 열기
+tutorial.step9.objective0.description	0	Open Road Construction Panel	네트워크 패널 열기
 tutorial.step9.objective1.description	0	Place the Road by clicking and dragging over the highlights.	클릭하고 드래그하여 강조된 지역까지 끌어 도로를 설치하기.
 tutorial.step10.description	0	The Water Siphon is running! Raw Resources like Water and Sand can be collected infinitely as long as you keep paying the upkeep.	취수장이 가동 중입니다! 물과 모래와 같은 원자재는 유지비를 계속 지불하는 한 무한히 수집할 수 있습니다. 
 tutorial.step11.description	0	Some Resources, like Coal, Copper, Gas, Iron, and Oil, have a limited amount of Units available for collecting. We have to be careful how they are used.	석탄, 구리, 가스, 철, 석유와 같은 일부 자원은 수집할 수 있는 양이 제한되어 있습니다. 우리는 이 자원의 사용에 대해 주의해야 합니다. 
 tutorial.step12.description	0	Gatherers for these Raw Resources need to be placed near their corresponding resource but do not need Roads to connect their Harvesters and Hubs to function.	이러한 원자재에 대한 채집기는 해당 자원 근처에 배치해야 하나, 수확기와 허브를 연결하기 위하여 도로가 필요치는 않습니다. 
-tutorial.step12.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수확기 탭 열기
+tutorial.step12.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 자원 건물 탭 열기
 tutorial.step12.objective1.description	0	Place one Coal Mine	하나의 석탄 광산 배치
 tutorial.step12.objective2.description	0	Place three Coal Mine Harvesters	세개의 석탄 광산 수확기 배치
-tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건설 패널 닫기
+tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건물 패널 닫기
 tutorial.step13.description	0	Lumberyard Harvesters have an area of effect, where it will select up to 4 Trees closest to them for exclusive use. For each Tree reserved, it will increase its Production Rate by 25%.	제재소는 단독으로 사용하기 위해 가장 가까운 4그루의 나무를 선택할 수 있는 영역효과가 있습니다. 나무가 포함될 때마다 생산률이 25% 증가합니다.
 tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
 tutorial.step13.objective1.description	0	Place a Lumberyard	제재소 배치
 tutorial.step13.objective2.description	0	Place 3 Lumberyard Harvester	3개의 제재소 수확기 배치하기
 tutorial.step13.objective3.description	0	Close Lumberyard Building Panel	제재소 건설 패널을 닫기
 tutorial.step14.description	0	Trees and Fish will deplete, but they are renewable. Fish will respawn over time and we can plant Trees then wait for them to grow.	나무와 물고기는 고갈되지만 재 생성이 가능합니다. 물고기는 시간이 지남에 따라 다시 생성되며 나무는 묘목을 심어 자라는 것을 기다릴 수 있습니다. 
-tutorial.step14.objective0.description	0	Open Terraforming Menu	지형편집 메뉴 열기
+tutorial.step14.objective0.description	0	Open Terraforming Menu	지형 편집 메뉴 열기
 tutorial.step14.objective1.description	0	Place 10 Trees near Lumberyard	제재소 근처에 10그루의 나무를 심기
 tutorial.step15.description	0	As the Gatherers are now operational, we need a place for our Water to go. Let’s put down a Warehouse or two.	이제 채집기가 작동하므로 물이 이송될 장소가 필요합니다. 이제 창고를 한두 개 정도 배치하도록 합니다. 
-tutorial.step15.objective0.description	0	Close Terraforming Menu	지형편집 메뉴 닫기
+tutorial.step15.objective0.description	0	Close Terraforming Menu	지형 편집 메뉴 닫기
 tutorial.step16.description	0	Warehouses are multi-functional Distribution Hubs that can store and move products where they are needed, whether that be to nearby buildings automatically, or using manual destinations...	창고는 자동으로 가까운 건물에서 상품을 받거나 보내며 수동 목적지 지정을 사용하여 필요한 곳에 제품을 저장하고 이동할 수 있는 다기능 유통 허브입니다... 
 tutorial.step17.description	0	Or to other Warehouses using Destinations, which can move a lot of products over long distances using high capacity Trucks. Warehouses can also deliver products to Shops in range to help make money.	또는 대용량 트럭을 사용하여 많은 제품을 장거리 이동시킬 수 있는 목적지를 사용하는 다른 창고로 이동할 수도 있습니다.  창고는 또한 제품을 상점에 배달하여 돈을 버는 데 도움을 줄 수 있습니다. 
 tutorial.step18.description	0	Let’s begin by placing a Warehouse near Chapwick, so we can sell the Coal and Wood. You can place a Warehouse even in regions you don't own a permit for, but only one.	석탄과 목재를 팔 수 있도록 채프윅 근처에 창고를 설치하는 것부터 시작하겠습니다. 허가증이 없는 지역에도 창고를 설치할 수는 있으나, 단 한개만 허용됩니다. 
 tutorial.step18.objective0.description	0	Click on Warehouse Button	창고 버튼 누르기
 tutorial.step18.objective1.description	0	Place a Warehouse near Chapwick	창고를 채프윅 인근에 설치하기
 tutorial.step19.description	0	Note that a Warehouse requires to place a Road Connection to connect both its Entrance and Exit, otherwise it will not function.	명심해야 할것은 창고는 입구와 출구를 모두 연결하기 위해 도로를 설치해야 하며, 만약 그렇지 않으면 작동하지 않습니다. 
-tutorial.step19.objective0.description	0	Place the Roads to Warehouse Entrance and Exit	창고의 입구와 출구에 도도를 연결하기
+tutorial.step19.objective0.description	0	Place the Roads to Warehouse Entrance and Exit	창고의 입구와 출구에 도로를 연결하기
 tutorial.step20.description	0	Our next step is to get our Raw Resources from the Gatherers to the Settlement’s Warehouse. We will use Manual Destinations to push the Product from the Gatherers to the Warehouse.	우리의 다음 단계는 자원을 수집기로부터 정착지의 창고로 가져오는 것 입니다. 우린 수동 목적지 지정을 사용하여 수집기로부터 창고로 제품을 이송할 것 입니다.
 tutorial.step20.objective0.description	0	Open Lumberyard Panel	제재소 패널 열기
 tutorial.step20.objective1.description	0	Open Destinations Tab	목적지 탭 열기
@@ -3423,7 +3423,7 @@ tutorial.step22.description	0	Once the Destination is assigned, we can set how m
 tutorial.step22.objective0.description	0	Use the + button to change Max Sent to 5	+ 버튼을 사용하여 최대한 이송을 5로 설정
 tutorial.step22.objective1.description	0	Close Lumberyard Building Panel	제재소 건설 패널 닫기
 tutorial.step23.description	0	We can use the same method of micromanaging Destinations to any building, but if there is a Warehouse there, we forgo using the automatic ability to distribute Products.	우리는 모든 건물에 목적지를 미세관리하는 동일한 방법을 사용할 수도 있지만, 거기에 창고가 있는 경우 제품을 배포하는 자동 기능을 사용하지 않습니다. 
-tutorial.step23.objective0.description	0	Set Chapwick Warehouse as Coal Mine Destination	채프윅 창고를 석탄 광산 목적지로 설정
+tutorial.step23.objective0.description	0	Set Chapwick Warehouse as Coal Mine Destination	석탄 광산 목적지를 채프윅 창고로 설정
 tutorial.step23.objective1.description	0	Set Max Sent Value to 5	최대한 이송을 5로 설정
 tutorial.step24.description	0	Be warned, selling raw resources is not very profitable, they are best used to make other Products. Also later we will see how there are more efficient ways of moving Products that involve other Vehicle types.	주의할 점은, 원자재의 판매는 수익성이 높지 않으며, 다른 제품을 만드는 데 가장 적합합니다. 또한 나중에 다른 차량 유형과 관련된, 제품을 이송하는 더 효율적인 방법이 있는지 알아 볼 것입니다. 
 tutorial.step25.description	0	Before we move on, let’s talk about the Hold until Full button. This feature will hold your vehicles back until their individual storage is full.	계속 진행하기 전에 꽉 찰 때까지 보류 버튼에 대해 이야기해 보겠습니다. 이 기능은 개별 창고가 가득 찰 때까지 이송 차량의 운행을 보류합니다. 
@@ -3439,23 +3439,23 @@ tutorial.step30.objective2.description	0	Set Cycle to Infinite	횟수를 무한�
 tutorial.step30.objective3.description	0	Close Water Siphon Panel	취수장 탭 닫기
 tutorial.step31.description	0	We can also fine-tune our warehouses to work differently, depending on what you want them to do.	우리는 또한 창고가 당신이 원하는 것에 따라 다르게 작동하도록 미세 조정할 수 있습니다.
 tutorial.step32.description	0	We can set the building’s distribution priorities using the Drop down menu found in the Outgoing tab. By Default, it is set to prioritize equally, but there are more options.	발송 탭에 있는 드롭 다운 메뉴를 사용하여 건물의 배송 우선순위를 설정할 수 있습니다. 기본적으로 우선순위는 동일하게 설정되지만 더 많은 옵션이 있습니다.
-tutorial.step32.objective0.description	0	Open the Outgoing Tab of the Warehouse	창고의 발송 탭 열기
+tutorial.step32.objective0.description	0	Open the Outgoing Tab of the Warehouse	창고의 출하 상품 탭 열기
 tutorial.step32.objective1.description	0	Click on the Priorities Button	우선순위 버튼 클릭
 tutorial.step33.description	0	Warehouse’s Priorities can either prioritize Producers or Shops, so the Warehouse will distribute to the one over the other first.	창고의 우선 순위는 생산자 또는 상점 중 하나를 우선시할 수 있으며, 다른 하나가 아닌 한 곳에 우선 배분할 수 있습니다.
 tutorial.step34.description	0	Or we can set the Warehouse to forgo sending any products to Buildings or Shops and focus purely on the other. There is also an option to distribute nothing at all. Whatever works for you.	또는 창고가 그 어떠한 제품도 건물이나 상점에 보내는 것을 중지하고 다른 것에만 집중하도록 설정할 수 있습니다. 아무것도 발송하지 않는 옵션도 있습니다. 뭐든 편한대로 하십시오.
-tutorial.step34.objective0.description	0	Click on the Priorities Button to close it.	우선순위 버튼을 눌러서 이것을 끄기
+tutorial.step34.objective0.description	0	Click on the Priorities Button to close it.	우선순위 버튼을 다시 균등하게 누르기
 tutorial.step34.objective1.description	0	Close Warehouse Building Panel	창고 건물 패널 닫기
 tutorial.step35.description	0	Before we can talk about using the Warehouse to make a proper Destination, we need to unlock a Logistics Module on the Tech Tree.	적절한 목적지를 만들기 위해 창고를 사용하는 것에 대해 이야기하기 전에 앞서, 기술 계통도에서 물류 모듈을 잠금 해제해야 합니다.
 tutorial.step36.description	0	The Tech Tree is where we learn new Recipes, get upgrades, and unlock buildings. Researching Products will unlock their corresponding buildings.	기술 계통도는 우리가 새로운 레시피를 배우고, 업그레이드를 진행하며, 건물의 잠금을 해제할 수 있는 곳입니다. 제품을 연구하면 해당 건물의 잠금을 해제할 수 있습니다.
 tutorial.step36.objective0.description	0	Open Tech Tree	기술 계통도 열기
 tutorial.step37.description	0	At the beginning of each game, we get three free Unlocks. After that, we have to spend money and time to Research an Unlock. Let’s pick a few Unlocks that we will need to move forward.	게임을 시작할 때 마다 3개의 기술 해금(Unlock)포인트를 무료로 드립니다. 그 후, 우리는 기술의 해금에 대한 연구를 위해 돈과 시간을 투자해야 합니다. 앞으로 진행해야 할 해금 목표를 몇 가지 선택해 보겠습니다.
-tutorial.step37.objective0.description	0	Open Advanced Distribution Tech Tree	고급 배포 기술 계통도 열기
+tutorial.step37.objective0.description	0	Open Advanced Distribution Tech Tree	보조 > 향산된 분배 열기
 tutorial.step37.objective1.description	0	Select Train Terminal	열차 터미널 선택
-tutorial.step37.objective2.description	0	Open Produce Tech Tree	생산 기술 계통도 열기
+tutorial.step37.objective2.description	0	Open Produce Tech Tree	시골 > 생산 열기
 tutorial.step37.objective3.description	0	Select Wheat, Vegetables	밀, 야채 선택
 tutorial.step38.description	0	As a note, we add more unlocks to a Research Queue to continuously research them while we work on other things.	참고로, 연구 대기열에 추가로 해금 목록을 등록하여 다른 작업을 수행하는 동안 지속적으로 연구할 수 있습니다.
 tutorial.step38.objective0.description	0	Add Flour to the Research Queue	밀가루를 연구 대기열에 추가하기
-tutorial.step38.objective1.description	0	Open Logistics & Administration Tree.	물류 & 연구 계통도 열기
+tutorial.step38.objective1.description	0	Open Logistics & Administration Tree.	물류 & 관리 계통도 열기
 tutorial.step38.objective2.description	0	Add Air Purifier to Research Queue	공기 집진기를 연구 대기열에 추가하기
 tutorial.step38.objective3.description	0	Close Tech Tree	기술 계통도 닫기
 tutorial.step39.description	0	Now that we are researching Flour, the Research Progress Bar appears in the upper left-hand corner. It usually takes a good amount of time to research, so let’s cheat...	이제 밀가루를 연구 중 이므로 왼쪽 상단에 연구 진행상황 막대가 나타납니다. 보통 조사하는데 상당한 시간이 걸리므로, 약간의 속임수를 써 봅시다...
@@ -3485,7 +3485,7 @@ tutorial.step47.description	0	When our Warehouses are connected via a Logistic N
 tutorial.step48.description	0	Now that the infrastructure has been built, we can now make the Route. Let’s send some Wood to Newton!	이제 인프라가 구축되었으므로 경로를 만들 수 있게 되었습니다. 뉴턴에 목재를 보내도록 합시다! 
 tutorial.step48.objective0.description	0	Open Chapwick’s Warehouse’s Panel	채프윅의 창고 패널 열기
 tutorial.step48.objective1.description	0	Click [ + ] Button	[ + ] 버튼 클릭
-tutorial.step48.objective2.description	0	Select Wood	목재 선택
+tutorial.step48.objective2.description	0	Select Wood	원자재 > 목재 선택
 tutorial.step48.objective3.description	0	Click Choose Destination	목적지 선택하기 클릭
 tutorial.step48.objective4.description	0	Click Warehouses Category	창고 카테고리 클릭
 tutorial.step48.objective5.description	0	Select the Warehouse in Newton	뉴턴의 창고 선택하기
@@ -3511,13 +3511,13 @@ tutorial.step57.description	0	The Crop Farm, like all Farms, are like Gatherers 
 tutorial.step57.objective0.description	0	Place 3 Fields in Highlighted area	강조된 지역에 3개의 필드를 배치하기
 tutorial.step57.objective1.description	0	Close Crop Farm Building Panel	작물 농장 건설 바를 닫기
 tutorial.step58.description	0	Once we place a road between the Warehouse and the Crop Farm, the Warehouse will begin sending Water to the Crop Farm automatically.	창고와 작물 농장 사이에 도로를 건설하면 창고에서 자동으로 작물 농장으로 물을 보내기 시작합니다.
-tutorial.step58.objective0.description	0	Open Road Construction Panel	도로 건설 패널 열기
+tutorial.step58.objective0.description	0	Open Road Construction Panel	네트워크 패널 열기
 tutorial.step58.objective1.description	0	Click Road Button	도로 버튼 클릭
 tutorial.step58.objective2.description	0	Place the Road between Warehouse and Crop Farm	창고와 작물농장 사이에 도로를 배치하기
 tutorial.step59.description	0	Our Crop Farm is ready to produce something. If we check the Farmer's Market we will see Vegetables have a higher value than Wheat, so let's set our Crop Farm's Production to Vegetables.	이제 우리 작물 농장은 무언가를 생산할 준비를 마쳤습니다. 농협을 확인해보면 채소의 가치가 밀보다 높으므로 작물 농장의 생산품을 채소로 설정해 보겠습니다.
 tutorial.step59.objective0.description	0	Open Chapwick Farmer's Market	채프윅 농협 열기
 tutorial.step59.objective1.description	0	Open the Crop Farm's Production Tab	작물 농장 생산 탭 열기
-tutorial.step59.objective2.description	0	Set the Crop Farm's Production to Vegetables	작물 농장의 생삼푼을 야채로 설정
+tutorial.step59.objective2.description	0	Set the Crop Farm's Production to Vegetables	작물 농장의 생산품을 야채로 설정
 tutorial.step59.objective3.description	0	Close Farmer's Market and Crop Farm Building Panel	농협과 작물 농장 건설 패널을 닫기
 tutorial.step60.description	0	Congratulations, we now have a working Vegetable production line! So let's start making some money by selling our Vegetables.	축하합니다, 이제 야채 생산 라인을 가동하게 되었습니다! 그러니 지금부터 야채를 팔아서 돈을 벌어 들여봅시다.
 tutorial.step61.description	0	Eventually, we will want to start producing higher Tier Products to generate higher profits. Factories are buildings that follow a selected Recipe to generate a Product, similar to Farms.	결국, 우리는 더 높은 수익을 창출하기 위해선 더 높은 등급의 제품을 생산해야 할 필요가 있습니다. 공장은 농장과 마찬가지로 선택된 레시피를 따라 제품을 생산하는 건물입니다.
@@ -3535,13 +3535,13 @@ tutorial.step66.description	0	Another aspect of Rise of Industry we should cover
 tutorial.step67.description	0	If Traffic does become a problem, we can use the Map Layers to see where our Trucks are getting jammed and then alter the traffic patterns to fix the problems.	교통량이 문제가 될 경우 지도 레이어를 사용하여 트럭이 어디에서 멈춰 서는지 확인한 다음 교통 패턴을 변경하여 문제를 해결할 수 있습니다.
 tutorial.step67.objective0.description	0	Open Map Layers	지도 레이어 열기
 tutorial.step67.objective1.description	0	Click Show Traffic Heat Map	교통량 히트맵 열기
-tutorial.step68.description	0	Map Layers also gives you access to a variety of different information about the map. If you need more specific data about the map, we can use the Query Tool.	또한 지도 레이어를 사용하면 지도에서 다양한 정보에 접근할 수 있습니다. 지도에 대한 보다 구체적인 데이터가 필요하시다면 요청 도구를 이용하실 수 있습니다.
+tutorial.step68.description	0	Map Layers also gives you access to a variety of different information about the map. If you need more specific data about the map, we can use the Query Tool.	또한 지도 레이어를 사용하면 지도에서 다양한 정보에 접근할 수 있습니다. 지도에 대한 보다 구체적인 데이터가 필요하시다면 타일 정보 도구를 이용하실 수 있습니다.
 tutorial.step68.objective0.description	0	Close Map Layers	지도 레이어 닫기
-tutorial.step68.objective1.description	0	Select Query Tool	요청 도구 선택
-tutorial.step69.description	0	The Query Tool is used to tell you the detailed information about the tile your cursor is over. It will tell you Tile type, Pollution rating, Building type, and much more.	요청 도구는 커서가 위치한 타일에 대한 자세한 정보를 알려주는 데 사용됩니다. 타일 유형, 공해 등급, 건물 유형 등을 알려줍니다.
-tutorial.step69.objective0.description	0	Close Query Tool Panel	요청 도구 패널 닫기
+tutorial.step68.objective1.description	0	Select Query Tool	타일 정보 도구 선택
+tutorial.step69.description	0	The Query Tool is used to tell you the detailed information about the tile your cursor is over. It will tell you Tile type, Pollution rating, Building type, and much more.	타일 정보 도구는 커서가 위치한 타일에 대한 자세한 정보를 알려주는 데 사용됩니다. 타일 유형, 공해 등급, 건물 유형 등을 알려줍니다.
+tutorial.step69.objective0.description	0	Close Query Tool Panel	타일 정보 도구 패널 닫기
 tutorial.step70.description	0	There are some other tools we have at disposal. If we hit the {button:ToggleObjectLabels} key, a series of labels will appear displaying the name of Settlements, Shops, Resources, and the name of our buildings.	우리가 사용할 수 있는 다른 도구들이 있습니다. 만약 {button:ToggleObjectLabels} 키를 누르면 정착지, 상점, 자원 및 건물 이름의 순서대로 표시하는 일련의 라벨이 나타납니다. 
-tutorial.step70.objective0.description	0	Push the {button:ToggleObjectLabels} {button:ToggleObjectLabels} 버튼 누르기
+tutorial.step70.objective0.description	0	Push the {button:ToggleObjectLabels}	{button:ToggleObjectLabels} 버튼 누르기
 tutorial.step70.objective1.description	0	Cycle through the {button:ToggleObjectLabels} Options	{button:ToggleObjectLabels} 옵션을 순서대로 전환하기
 tutorial.step71.description	0	Pressing the {button:ToggleProductIcons} button will cause Production Bubbles to appear above each of our buildings that show the production progress of each building. It will fill up with green when working right.	{button:ToggleProductIcons} 버튼을 누르면 각 건물 위에 생산 풍선마크가 나타나 각 건물의 생산 진행 상황을 보여줍니다. 이 것이 제대로 작동한다면 녹색으로 채워집니다. 
 tutorial.step71.objective0.description	0	Press the {button:ToggleProductIcons} Button to make bubbles appear	풍선 아이콘이 나타날 때 까지 {button:ToggleProductIcons}을 누르기
@@ -3648,9 +3648,9 @@ ui.mainui.lockedmodeui.mainui.mainmenumoneypanel.moneyactualtextarea.estimatedsa
 ui.mainui.lockedmodeui.mainui.mainmenumoneypanel.moneyactualtextarea.estimatedsaleszero	0	{sales}	{sales}
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.openhelppanelbutton.tooltip	0	HELP PANEL	패널 도움
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.openhelppanelbutton.buttonzone.button.buttontext	0	OPEN HELP PANEL	도움 패널 열기
-ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.querytool.tooltip	0	QUERY TOOL	요청 도구
+ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.querytool.tooltip	0	QUERY TOOL	타일 정보 도구
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.scenariospanellbutton.tooltip	0	SCENARIO OVERVIEW	시나리오 개요
-ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.maplayersbutton.tooltip	0	MAP LABELS & LAYERS	MAP 라벨 & 레이어 지도
+ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.maplayersbutton.tooltip	0	MAP LABELS & LAYERS	지도 라벨 & 레이어
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.buildingoverviewbutton.tooltip	0	BUILDING OVERVIEW	건물 개요
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.notificationsbutton.tooltip	0	NOTIFICATIONS	알림
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.mainmenutoolsarea.stateicon.tooltip	0	STATE		연방	
@@ -3725,7 +3725,7 @@ ui.mainui.lockedmodeui.mainui.constructionbararea.constructionbarprehqarea.const
 constructionbarbuiltinbehaviours.constructionbar.bridgesmenuname	0	Bridges	교량
 constructionbarbuiltinbehaviours.constructionbar.standardnetworksmenuname	0	Networks	네트워크
 constructionbarbuiltinbehaviours.constructionbar.tunnelsmenuname	0	Tunnels	터널
-constructionbarbuiltinbehaviours.constructionbar.terraformingmenuname	0	Terraforming	지형편집
+constructionbarbuiltinbehaviours.constructionbar.terraformingmenuname	0	Terraforming	지형 편집
 constructionbarbuiltinbehaviours.constructionbar._blueprintsmenuname	0	Blueprints	청사진
 ui.mainui.lockedmodeui.mainui.constructionbararea.constructionbar.commands.command.icon	0	{tooltip}	{tooltip}
 ui.mainui.lockedmodeui.mainui.constructionbararea.constructionbar.menuarea.mainarea.viewport.content.menu.entry	0	{description}	{description}
@@ -4177,7 +4177,7 @@ buildingcategory.headquarters.categoryname	0	Headquarters	본사
 buildingcategory.heavyindustry.categoryname	0	Heavy Industry	중공업
 buildingcategory.landgatherers.categoryname	0	Land-Based Gatherers	육상 수집기
 buildingcategory.lightindustry.categoryname	0	Light Industry	경공업
-buildingcategory.logisticsbuildings.categoryname	0	Logistics Buildings	물류 건물
+buildingcategory.logisticsbuildings.categoryname	0	Logistics Buildings	창고
 buildingcategory.offshoregatherers.categoryname	0	Offshore Gatherers	해상 수집기
 buildingcategory.pollutionmanagement.categoryname	0	Pollution Management	공해 관리
 buildingcategory.prototypefactories.categoryname	0	Prototype Factories	프로토타입 공장
@@ -4480,9 +4480,9 @@ warehouseincomingmodule.gatheredareawrapper.noincomingarea.text	0	No Products In
 buildingpanelmodule.warehouseoutgoingmodule.modulename	0	OUTGOING PRODUCTS	출하 상품
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element0.name	0	Equally	균등하게
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element0.tooltip	0	Distribute to Producers and Shops equally	생산지와 상점에 균등하게 분배
-warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.name	0	+Shops	+상점
+warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.name	0	+Shops	+상점 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element1.tooltip	0	Prioritise Shops	상점 우선
-warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.name	0	+Users	+Users
+warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.name	0	+Users	+생산자 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element2.tooltip	0	Prioritise Producers	생산자 우선
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element3.name	0	Only shops	상점 한정
 warehouseuiviewmodel.warehouseoutgoingmodule.awhpullmodeoptions.element3.tooltip	0	Don't send anything to Producers	생산자에게 아무것도 보내지 않음
@@ -4515,7 +4515,7 @@ buildingselectioncategorygroup.commercial.groupname	0	Commercial	상업
 buildingselectioncategorygroup.contractsevents.groupname	0	Contracts	계약
 buildingselectioncategorygroup.factories.groupname	0	Factories	공장
 buildingselectioncategorygroup.gatherers.groupname	0	Gatherers	자원 건물
-buildingselectioncategorygroup.logistics.groupname	0	Logistics	물류 건물
+buildingselectioncategorygroup.logistics.groupname	0	Logistics	창고
 buildingselectioncategorygroup.pollution.groupname	0	Pollution	공해
 buildingselectioncategorygroup.state.groupname	0	State	연방
 buildingselectioncategorygroup.trainterminals.groupname	0	Trains	열차
@@ -4539,12 +4539,12 @@ constructionbarcommand.eyedropperconbarcommand.commandname	0	Duplicate	복사
 constructionbarcommand.factoriesconbarcommand.commandname	0	Factories	공장
 constructionbarcommand.farmsconbarcommand.commandname	0	Farms	농장
 constructionbarcommand.gatherersconbarcommand.commandname	0	Gatherers	자원 건물
-constructionbarcommand.logisticsconbarcommand.commandname	0	Logistics	물류 건물
+constructionbarcommand.logisticsconbarcommand.commandname	0	Logistics	창고
 constructionbarcommand.networksconbarcommand.commandname	0	Networks	네트워크
 constructionbarcommand.overpassesconbarcommand.commandname	0	Bridges & Tunnels	다리와 터널
 constructionbarcommand.pollutionconbarcommand.commandname	0	Pollution	공해
 constructionbarcommand.prototypefacilitiesconbarcommand.commandname	0	Prototype Facilities	하이테크 공장 건물
-constructionbarcommand.terraformingconbarcommand.commandname	0	Terraforming	지형 툴
+constructionbarcommand.terraformingconbarcommand.commandname	0	Terraforming	지형 편집
 constructionbarcommand.undoconbarcommand.commandname	0	Undo	되돌리기
 constructionbarcommand.undoconbarcommand._tooltip	0	The Undo Tool will undo any Building placement done in a game session. The game must be paused.	되돌리기는 게임 세션에서 수행된 모든 건물의 배치를 취소합니다. 게임을 일시 중지해야 합니다.
 buildingpanel.titlepanelarea.titlepanel.settlementname	0	{settlement} ({tier} - {type})	{settlement} ({tier} - {type})
@@ -4579,7 +4579,7 @@ difficultyoptionbool.infiniteresources.description	0	Allows for resource nodes t
 DifficultyOptionBool.terraforming.valueNames.element0	0	Yes	예
 DifficultyOptionBool.terraforming.valueNames.element1	0	No	아니오
 difficultyoptionbool.terraforming.displayname	0	Terraforming	테라포밍
-difficultyoptionbool.terraforming.description	0	Enables Terraforming.	지형편집(Terraforming)을 허용합니다.
+difficultyoptionbool.terraforming.description	0	Enables Terraforming.	지형 편집(Terraforming)을 허용합니다.
 DifficultyOptionBool.traffic.valueNames.element0	0	No	아니오
 DifficultyOptionBool.traffic.valueNames.element1	0	Yes	예
 difficultyoptionbool.traffic.displayname	0	Traffic	교통량
@@ -4688,7 +4688,7 @@ helpinfo.gamestart.info	0	Welcome to Rise of Industry! Let's begin by placing th
 helpinfo.gathererbuildmode.info	0	When placing a Gatherer, keep in mind that the wanted Resource (Coal, Oil, Water, etc) needs to be in range of its Area of Effect (AoE). The main building (Hub) only serves as a connection to the world, and it's the modules (Harvesters) that actually grab the Resources.	수확기를 배치할 때 원하는 자원(석탄, 석유, 물 등)이 효과 범위(AoE) 내에 있어야 한다는 점을 염두에 두십시오. 본관(허브)은 세계와의 연결 역할만을 하며, 실제로 자원을 채집하는 것은 모듈(수확기)입니다.
 helpinfo.gathererisharvestingaresourcenodewith0quantityleft.info	0	Looks like a Gatherer has depleted a Resource Node. Don't despair, as the production isn't completely stalled, it will harvest at a minimum 25% production rate. If you increase the Building Efficiency to 200%, you can still harvest at 50% rate.	채집기가 자원 노드를 고갈시킨 것 같습니다. 생산이 완전히 중단된 것은 아니며 최소 25%로 수확할 것이므로 절망하지 마십시오. 건물 효율을 200%로 올려도 여전히 50%의 비율로 수확할 수 있습니다.
 helpinfo.houseiskilled.info	0	Oh no! A Settlement's Population has decreased due to Pollution. You will need to build some Pollution Management buildings to clean up some of the Map if you don't want it to spread further.	오 이런! 공해로 인해 정착지의 인구가 감소했습니다. 지도에 더 퍼지는 것을 원치 않으면 공해 관리 건물을 건설해야 합니다.
-helpinfo.logisticconbaropened.info	0	Here you can find all the Logistic buildings. The most important one, the Warehouse, automatically gathers and redistributes Products from/to every building in its Radius. Try to put Production Buildings all around it for maximum efficiency.	여기에서 모든 물류 건물을 찾을 수 있습니다. 가장 중요한 창고는 반경에 있는 모든 건물에서 자동으로 제품을 수집하고 재배포합니다. 최대 효율성을 위해 주변에 생산 건물을 배치하십시오.
+helpinfo.logisticconbaropened.info	0	Here you can find all the Logistic buildings. The most important one, the Warehouse, automatically gathers and redistributes Products from/to every building in its Radius. Try to put Production Buildings all around it for maximum efficiency.	여기에서 모든 창고을 찾을 수 있습니다. 가장 중요한 창고는 반경에 있는 모든 건물에서 자동으로 제품을 수집하고 재배포합니다. 최대 효율성을 위해 주변에 생산 건물을 배치하십시오.
 helpinfo.openglobalmarket.info	0	This Panel allows you to see the current base value of every Product according to the State. Clicking a Product here will open its corresponding entry in the Recipe Book.	이 패널을 사용하면 상태에 따라 모든 제품의 현재 기본 가치를 볼 수 있습니다. 여기에서 제품을 클릭하면 레시피 북에서 해당 항목이 열립니다.
 helpinfo.openhqpenel.info	0	From here you can manage loans. You can also change the Headquarters appearance once you unlock more tech!	여기에서 대출을 관리할 수 있습니다. 더 많은 기술을 잠금 해제하면 본사의 모양을 변경할 수도 있습니다! 
 helpinfo.openlogisticspanel.info	0	Once you start placing Trade Depots near Warehouses, you can start setting up Trade Routes to move product across the map. You create the Request in Warehouses but you can manage them from this panel.	창고 근처에 무역 창고를 배치하면 무역로를 설정하여 지도를 가로질러 제품을 이동할 수 있습니다. 창고에서 요청을 생성하지만 이 패널에서 관리할 수도 있습니다.
@@ -4732,9 +4732,9 @@ helpinfo.watertowerplaced.info	0	This building works a lot like a Warehouse exce
 helpinfo.zeppelinstationplaced.info	0	Zeppelins can't move that much Product, but they also don't require any Roads or Tracks to work since they glide above everything. Make sure you place this building near a Warehouse to be able to make Requests in its Request Tab.	체펠린은 많은 제품을 운반할 수 없지만 모든 것 위로 활공하기 때문에 작동하는 데 도로나 철로가 필요하지 않습니다. 요청 탭에서 요청을 할 수 있도록 이 건물을 창고 근처에 두십시오.
 inownerwaterbodyrestriction.inownerwaterbody.validationerror	0	CAN'T REACH HUB	허브에 도달할 수 없습니다
 inputbutton.brushdecreasesize.displayname	0	Decrease Brush Size	브러시 사이즈 줄이기
-inputbutton.brushdecreasesize.description	0	Press to decrease the terraforming bursh size.	눌러서 지형편집 브러쉬 사이즈를 줄입니다
+inputbutton.brushdecreasesize.description	0	Press to decrease the terraforming bursh size.	눌러서 지형 편집 브러쉬 사이즈를 줄입니다
 inputbutton.brushincreasesize.displayname	0	Increase Brush Size	브러시 사이즈 키우기
-inputbutton.brushincreasesize.description	0	Press to increase the terraforming brush size.	눌러서 지형편집 브러쉬 사이즈를 키웁니다
+inputbutton.brushincreasesize.description	0	Press to increase the terraforming brush size.	눌러서 지형 편집 브러쉬 사이즈를 키웁니다
 inputbutton.buildresourcehotkey.displayname	0	Build Resource Hotkey	자원 단축기 작성
 inputbutton.buildresourcehotkey.description	0	Press to open the resource construction bar.	눌러서 자원 건설 바를 여십시오
 inputbutton.camerafastmovement.displayname	0	Fast Movement Modifier	빠른 이동 배율
@@ -4802,7 +4802,7 @@ inputbutton.quickload.displayname	0	Quick Load	빠른 불러오기
 inputbutton.quickload.description	0	Press to quickly load the game.	눌러서 빠르게 게임을 불러옵니다.
 inputbutton.quicksave.displayname	0	Quick Save	빠른 저장
 inputbutton.quicksave.description	0	Press to quickly save the game.	눌러서 빠르게 게임을 저장합니다.
-inputbutton.raiselowerhotkey.displayname	0	Raise / Lower Terrain	지형편집 상승/하강
+inputbutton.raiselowerhotkey.displayname	0	Raise / Lower Terrain	지형 편집 상승/하강
 inputbutton.raiselowerhotkey.description	0	Press to enable rasing and lowering terrain mode.	지형모드에서 지대를 높이거나 낮추려면 누르십시오.
 inputbutton.regiontoggle.displayname	0	Region Toggle	지역 스위치
 inputbutton.regiontoggle.description	0	Press to toggle region guides.	눌러서 지역 가이드를 끄거나 켭니다
@@ -4879,7 +4879,7 @@ moneybillcategory.researchrefund.categoryname	0	R&D Refund	연구개발비 환�
 moneybillcategory.routevehicleupkeep.categoryname	0	Route Vehicle Upkeep	경로 차량 유지비
 moneybillcategory.starterloanbillcategory.categoryname	0	Starter Loan	초기 대출
 moneybillcategory.stockspurchase.categoryname	0	Stocks Purchase	주식 구매
-moneybillcategory.terraformingbillcategory.categoryname	0	Terraforming	지형편집
+moneybillcategory.terraformingbillcategory.categoryname	0	Terraforming	지형 편집
 moneybillcategory.upkeep.categoryname	0	Renting	대여
 moneybillcategory.vehicles.categoryname	0	Vehicles	차량
 moneybillcategory.vehicleupkeep.categoryname	0	Vehicle Upkeep	차량 유지비
@@ -4975,7 +4975,7 @@ prandmarketingeventdefinition.loansinterestprandmarketingevent.eventdescription	
 prandmarketingeventdefinition.loanspaymentprandmarketingevent.eventdescription	0	Monthly payments of all existing and new loans reduced by {payment}% for {duration} months	{duration} 개월 동안 모든 기존 및 신규 대출의 월별 상환액이 {payment}% 감소합니다.
 prandmarketingeventdefinition.productdemandprandmarketingevent.eventdescription	0	Demand of {product} +{demand}% for {duration} months	{duration} 개월 동안에 {product} + {demand}% 
 prandmarketingeventdefinition.productpriceprandmarketingevent.eventdescription	0	Price of {product} +{price}% for {duration} months	{duration} 개월 동안 {product} 의 가격이 +{price}% 
-prandmarketingeventdefinition.terraformingcostprandmarketingevent.eventdescription	0	Cost of terraforming reduced by {cost}% for {duration} months	{duration}개월 동안 지형편집 비용이 {cost}% 감소합니다.
+prandmarketingeventdefinition.terraformingcostprandmarketingevent.eventdescription	0	Cost of terraforming reduced by {cost}% for {duration} months	{duration}개월 동안 지형 편집 비용이 {cost}% 감소합니다.
 prandmarketingeventdefinition.vehiclespeedprandmarketingevent.eventdescription	0	Trucks speed increased by {modifier}% for {duration} months	{duration}개월 동안 트럭의 이동 속도가 {modifier}% 증가합니다.
 preset.custom.displayname	0	Custom	커스텀
 preset.newcomer.displayname	0	Newcomer	신입
@@ -5220,8 +5220,8 @@ techtreebuildingunlock.boatdepot.unlockname	0	Boat Depot	선박 창고
 techtreebuildingunlock.boatdepot.description	0	Can build Boat Depots	선박 창고를 건설할 수 있습니다
 techtreebuildingunlock.zeppelinfield.unlockname	0	Zeppelin Field	체펠린 이착륙장
 techtreebuildingunlock.zeppelinfield.description	0	Can build Zeppelin Fields	체펠린 이착륙장을 건설할 수 있습니다
-techtreebuildingunlock.trainterminal.unlockname	0	Train Terminal	열차 정거장
-techtreebuildingunlock.trainterminal.description	0	Can build Train Terminals and rails	열차 정거장과 철로를 건설할 수 있습니다
+techtreebuildingunlock.trainterminal.unlockname	0	Train Terminal	열차 터미널
+techtreebuildingunlock.trainterminal.description	0	Can build Train Terminals and rails	열차 터미널과 철로를 건설할 수 있습니다
 techtreebuildingunlock.watersiphon.unlockname	0	Water Siphon	수자원 추출기
 helppanelcategory.controls.name	0	Controls	컨트롤
 campaignconfig.assistantcampaign.campaignname	0	Main Campaign	메인 캠페인
@@ -5388,7 +5388,7 @@ notificationspecification.pathnotfoundgoingback.message	0	CANNOT GO BACK TO ORIG
 notificationspecification.pathnotfoundgoingback.description	0	%b	%b
 notificationspecification.cannotcomebackfromwarehouse.message	0	CANNOT COME BACK FROM WAREHOUSE	창고로 되돌아갈 수 없음
 notificationspecification.cannotcomebackfromwarehouse.description	0	%b	%b
-building.airpurifier.buildingname	0	Air Purifier	공기 청정기
+building.airpurifier.buildingname	0	Air Purifier	기공기 집진기
 building.airpurifier.description	0	The Air Purifier uses Water, collected from a Water Siphon or Water Well, to clean the surrounding area of Pollution.	공기청정기는 취수장이나 지하수 관정에서 채취한 물을 사용하여 공해에 오염된 주변 지역을 청소합니다. 
 building.applesfield.buildingname	0	APPLE FIELD	사과밭
 building.automotivefactory.buildingname	0	AUTOMOTIVE FACTORY	자동차 공장
@@ -5468,7 +5468,7 @@ building.ironmongerystore.buildingname	0	Ironmongery	철물점
 building.liquorstore.buildingname	0	Liquor Store	주류판매점
 building.livestockfarm.buildingname	0	LIVESTOCK FARM	축산 농장
 building.livestockfarm.description	0	The Livestock Farm allows you to use fields to generate Chickens, Cows, and Sheep.	축산 농장에서는 필드를 사용하여 닭, 소, 양을 생성할 수 있습니다. 
-building.lumberyardgatherer.buildingname	0	LUMBERYARD	재제소
+building.lumberyardgatherer.buildingname	0	LUMBERYARD	제재소
 building.lumberyardgatherer.description	0	The Lumberyard uses Harvesters to collect units of Wood from nearby Trees. After harvesting a Tree, it will plant a Sapling in its place.	제재소는 수확기를 사용하여 근처 나무에서 목재를 수집합니다. 나무를 수확한 후 그 자리에 묘목을 심을 것입니다. 
 building.lumberyardharvester.buildingname	0	LUMBERYARD HARVESTER	제재소 수확기
 building.oildrillharvester.buildingname	0	OIL DRILL HARVESTER	석유 시추 수확기
@@ -5977,8 +5977,8 @@ staticworldeventdata.winter.eventname	0	Winter	겨울
 staticworldeventdata.winter.description	0	Winter is here.	겨울이 왔습니다
 staticworldeventdata.workman'sgrant.eventname	0	Workman's Grant	노동자 보조금
 staticworldeventdata.workman'sgrant.description	0	You are getting a monthly stipend from a Government Program to allow you to hire more workers.	당신은 더 많은 직원을 고용할 수 있도록 정부 프로그램 으로부터 월 급여를 받고 있습니다. 
-techtreebuildingunlock.airpurifier.unlockname	0	Air Purifier	공기 청정기
-techtreebuildingunlock.airpurifier.description	0	Can build Air Purifiers	공기 청정기를 건설할 수 있습니다
+techtreebuildingunlock.airpurifier.unlockname	0	Air Purifier	기공기 집진기
+techtreebuildingunlock.airpurifier.description	0	Can build Air Purifiers	기공기 집진기를 건설할 수 있습니다
 techtreebuildingunlock.brewery&distillery.unlockname	0	Brewery & Distillery	양조장 & 증류소
 techtreebuildingunlock.carprototypefacility.unlockname	0	Car Prototype Facility	시제 자동차 공장
 techtreebuildingunlock.carprototypefacility.description	0	Can build Car Prototype Facility	시제 자동차 공장을 건설할 수 있습니다
@@ -6943,14 +6943,14 @@ localizedtexttable.localizedtexttable.startingup	0	Starting Up	시작하는 중
 localizedtexttable.localizedtexttable.cannotafford	0	Cannot afford!	여유 없음
 localizedtexttable.localizedtexttable.cannotbuildhereerror	0	Cannot build here!	여기에 건설 불가!
 localizedtexttable.localizedtexttable.cannotconnecterror	0	Cannot connect! {0} -> {1}	{0} -> {1}로 연결할 수 없습니다!
-localizedtexttable.localizedtexttable.cannotterraform	0	Cannot terraform!	지형편집이 불가능합니다!
+localizedtexttable.localizedtexttable.cannotterraform	0	Cannot terraform!	지형 편집이 불가능합니다!
 localizedtexttable.localizedtexttable.emptypatherror	0	Path is empty!	경로가 비었습니다!
 localizedtexttable.localizedtexttable.invalidplacement	0	Can't place here!\n<color=#AA7326FF>{0}</color>	여기에 설치할 수 없습니다!\n<color=#AA7326FF>{0}</color>
 localizedtexttable.localizedtexttable.logisticalpermitrequirederror	0	Permit required!	권한이 필요합니다!
 localizedtexttable.localizedtexttable.missingpermit	0	Missing permit!	권한이 없음!
 localizedtexttable.localizedtexttable.overpassblockederror	0	Overpass blocked by terrain or building!	고가도로는 지형 또는 건물에 의해 막혀있습니다!
 localizedtexttable.localizedtexttable.placingpath	0	{2}\n{0} Tiles: {1}	{2}\n{0} 타일: {1}
-localizedtexttable.localizedtexttable.terraformingblocked	0	Tiles are blocked! Cannot terraform!	타일이 막혔습니다!지형편집 불가!
+localizedtexttable.localizedtexttable.terraformingblocked	0	Tiles are blocked! Cannot terraform!	타일이 막혔습니다!지형 편집 불가!
 buildingefficiency.helpbutton.tooltip	0	Help	도움말
 buildingefficiency.titletext	0	Workers Salary	작업자 급여
 buildingefficiency.buttonarea.value.background	0	<color=#C87C0D>{efficiencyValue}%</color>\nBuilding Upkeep <color=#C87C0D>{upkeep} ({upkeepModifier}%)</color>\nProduction Time <color=#C87C0D>{productionTime} Days ({productionTimeModifier}%)</color>\nPollution <color=#C87C0D>{pollution} / Day ({pollutionModifier}%)</color>	<color=#C87C0D>{efficiencyValue}%</color>\n건물 유지비용 <color=#C87C0D>{upkeep} ({upkeepModifier}%)</color>\n생산 시간 <color=#C87C0D>{productionTime} 일 ({productionTimeModifier}%)</color>\n공해 <color=#C87C0D>{pollution} / 일 ({pollutionModifier}%)</color>
@@ -6993,7 +6993,7 @@ assetsauctioninfo.title.titletext	0	{competitor} Assets	{competitor} 자산
 assetsauctioninfo.infoareabuildings(1).building.tooltip	0	GATHERERS	수집기
 assetsauctioninfo.infoareabuildings(1).building(1).tooltip	0	FARMS	농장
 assetsauctioninfo.infoareabuildings(1).building(2).tooltip	0	FACTORIES	공장
-assetsauctioninfo.infoareabuildings(1).building(3).tooltip	0	LOGISTICAL BUILDINGS	물류 건물
+assetsauctioninfo.infoareabuildings(1).building(3).tooltip	0	LOGISTICAL BUILDINGS	창고
 assetsauctioninfo.infoareabuildings(1).building(4).tooltip	0	POLLUTION BUILDINGS	공해 건물
 assetsauctioninfo.infoareabuildings(1).building(4).amount.headertitle(1)	0	555	555
 assetsauctioninfo.regions.titletext	0	Regions	지역
@@ -7015,8 +7015,8 @@ scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.chang
 scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.optionaltoggle.tooltip	0	Mandatory Objective	필수 목표
 tutorial.step0.description	0	Welcome to Rise of Industry! A game about testing your entrepreneurial skills. Here are some instructions to give you a head start!	Rise of Industry에 오신 것을 환영합니다! 이 게임에서 기업가의 재능을 테스트 해 볼 수 있습니다. 시작에 도움이 되는 몇 가지를 알아보겠습니다.
 tutorial.step1.description	0	To start off, let us learn how to move around and use the camera. Use the Keyboard and Mouse to Pan, Zoom, and Rotate the Camera. Holding Shift speeds up the movement.	우선 시점을 변경하는 방법을 배워 보겠습니다. 키보드와 마우스를 이용해 시점을 이동, 확대/축소, 회전할 수 있습니다.
-tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
-tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 회전하세요
+tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	(button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
+tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 이동하세요
 tutorial.step1.objective2.description	0	Use {button:RotateCameraLeft} and {button:RotateCameraRight} to Rotate	{button:RotateCameraLeft}와 {button:RotateCameraRight}를 이용하여 시점을 회전하세요
 tutorial.step1.objective3.description	0	Use {button:CameraZoomAxis} or {button:CameraZoomIn} and {button:CameraZoomOut} to Zoom	{button:CameraZoomAxis}나 {button:CameraZoomIn}/{button:CameraZoomOut}를 이용하여 시점을 확대/축소하세요
 tutorial.step2.description	0	To build in a Region that you don’t control, you need a permit. It’s not as easy as just buying it, as there’s a free market. You can start an Auction and bid enough to gain control of it.	당신이 통제하지 않는 지역에 건설을 하려면 허가가 필요합니다. 자유 시장의 존재로 그냥 사는 것만큼은 쉽지 않습니다. 경매를 시작하고 경매를 통제할 수 있을 만큼 충분히 입찰금을 지불하십시오. 
@@ -7045,24 +7045,24 @@ tutorial.step12.description	0	Gatherers for these Raw Resources need to be place
 tutorial.step12.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수확기 탭 열기
 tutorial.step12.objective1.description	0	Place one Coal Mine	하나의 석탄 광산 배치
 tutorial.step12.objective2.description	0	Place three Coal Mine Harvesters	세개의 석탄 광산 수확기 배치
-tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건설 패널 닫기
+tutorial.step12.objective3.description	0	Close Coal Mine Building Panel	석탄 광산 건물 패널 닫기
 tutorial.step13.description	0	Lumberyard Harvesters have an area of effect, where it will select up to 4 Trees closest to them for exclusive use. For each Tree reserved, it will increase its Production Rate by 25%.	제재소는 단독으로 사용하기 위해 가장 가까운 4그루의 나무를 선택할 수 있는 영역효과가 있습니다. 나무가 포함될 때마다 생산률이 25% 증가합니다.
 tutorial.step13.objective0.description	0	Open Gatherer Tab in the Construction Bar	건설 바에서 수집기 탭 열기
 tutorial.step13.objective1.description	0	Place a Lumberyard	제재소 배치
 tutorial.step13.objective2.description	0	Place 3 Lumberyard Harvester	3개의 제재소 수확기 배치하기
-tutorial.step13.objective3.description	0	Close Lumberyard Building Panel	제재소 건설 패널을 닫기
+tutorial.step13.objective3.description	0	Close Lumberyard Building Panel	제재소 건물 패널을 닫기
 tutorial.step14.description	0	Trees and Fish will deplete, but they are renewable. Fish will respawn over time and we can plant Trees then wait for them to grow.	나무와 물고기는 고갈되지만 재 생성이 가능합니다. 물고기는 시간이 지남에 따라 다시 생성되며 나무는 묘목을 심어 자라는 것을 기다릴 수 있습니다. 
-tutorial.step14.objective0.description	0	Open Terraforming Menu	지형편집 메뉴 열기
+tutorial.step14.objective0.description	0	Open Terraforming Menu	지형 편집 메뉴 열기
 tutorial.step14.objective1.description	0	Place 10 Trees near Lumberyard	제재소 근처에 10그루의 나무를 심기
 tutorial.step15.description	0	As the Gatherers are now operational, we need a place for our Water to go. Let’s put down a Warehouse or two.	이제 채집기가 작동하므로 물이 이송될 장소가 필요합니다. 이제 창고를 한두 개 정도 배치하도록 합니다. 
-tutorial.step15.objective0.description	0	Close Terraforming Menu	지형편집 메뉴 닫기
+tutorial.step15.objective0.description	0	Close Terraforming Menu	지형 편집 메뉴 닫기
 tutorial.step16.description	0	Warehouses are multi-functional Distribution Hubs that can store and move products where they are needed, whether that be to nearby buildings automatically, or using manual destinations...	창고는 자동으로 가까운 건물에서 상품을 받거나 보내며 수동 목적지 지정을 사용하여 필요한 곳에 제품을 저장하고 이동할 수 있는 다기능 유통 허브입니다... 
 tutorial.step17.description	0	Or to other Warehouses using Destinations, which can move a lot of products over long distances using high capacity Trucks. Warehouses can also deliver products to Shops in range to help make money.	또는 대용량 트럭을 사용하여 많은 제품을 장거리 이동시킬 수 있는 목적지를 사용하는 다른 창고로 이동할 수도 있습니다.  창고는 또한 제품을 상점에 배달하여 돈을 버는 데 도움을 줄 수 있습니다. 
 tutorial.step18.description	0	Let’s begin by placing a Warehouse near Chapwick, so we can sell the Coal and Wood. You can place a Warehouse even in regions you don't own a permit for, but only one.	석탄과 목재를 팔 수 있도록 채프윅 근처에 창고를 설치하는 것부터 시작하겠습니다. 허가증이 없는 지역에도 창고를 설치할 수는 있으나, 단 한개만 허용됩니다. 
 tutorial.step18.objective0.description	0	Click on Warehouse Button	창고 버튼 누르기
 tutorial.step18.objective1.description	0	Place a Warehouse near Chapwick	창고를 채프윅 인근에 설치하기
 tutorial.step19.description	0	Note that a Warehouse requires to place a Road Connection to connect both its Entrance and Exit, otherwise it will not function.	명심해야 할것은 창고는 입구와 출구를 모두 연결하기 위해 도로를 설치해야 하며, 만약 그렇지 않으면 작동하지 않습니다. 
-tutorial.step19.objective0.description	0	Place the Roads to Warehouse Entrance and Exit	창고의 입구와 출구에 도도를 연결하기
+tutorial.step19.objective0.description	0	Place the Roads to Warehouse Entrance and Exit	창고의 입구와 출구에 도로를 연결하기
 tutorial.step20.description	0	Our next step is to get our Raw Resources from the Gatherers to the Settlement’s Warehouse. We will use Manual Destinations to push the Product from the Gatherers to the Warehouse.	우리의 다음 단계는 자원을 수집기로부터 정착지의 창고로 가져오는 것 입니다. 우린 수동 목적지 지정을 사용하여 수집기로부터 창고로 제품을 이송할 것 입니다.
 tutorial.step20.objective0.description	0	Open Lumberyard Panel	제재소 패널 열기
 tutorial.step20.objective1.description	0	Open Destinations Tab	목적지 탭 열기
@@ -7072,9 +7072,9 @@ tutorial.step21.objective1.description	0	Click Warehouses Category	창고 카테
 tutorial.step21.objective2.description	0	Select the Warehouse	창고 선택
 tutorial.step22.description	0	Once the Destination is assigned, we can set how much of our Product is stored there. We can set a value or leave it at Infinite, which will try to deliver as much as possible.	목적지가 지정되면, 우리는 그 곳에 얼마나 많은 제품이 저장될 지를 설정할 수 있습니다. 이 값을 설정할 수도 있으며 무한대로 설정할 수도 있으며, 무한대로 설정하면 최대한 많은 양을 배송하려 할 것입니다.
 tutorial.step22.objective0.description	0	Use the + button to change Max Sent to 5	+ 버튼을 사용하여 최대한 이송을 5로 설정
-tutorial.step22.objective1.description	0	Close Lumberyard Building Panel	제재소 건설 패널 닫기
+tutorial.step22.objective1.description	0	Close Lumberyard Building Panel	제재소 건물 패널 닫기
 tutorial.step23.description	0	We can use the same method of micromanaging Destinations to any building, but if there is a Warehouse there, we forgo using the automatic ability to distribute Products.	우리는 모든 건물에 목적지를 미세관리하는 동일한 방법을 사용할 수도 있지만, 거기에 창고가 있는 경우 제품을 배포하는 자동 기능을 사용하지 않습니다. 
-tutorial.step23.objective0.description	0	Set Chapwick Warehouse as Coal Mine Destination	채프윅 창고를 석탄 광산 목적지로 설정
+tutorial.step23.objective0.description	0	Set Chapwick Warehouse as Coal Mine Destination	석탄 광산 목적지를 채프윅 창고로 설정
 tutorial.step23.objective1.description	0	Set Max Sent Value to 5	최대한 이송을 5로 설정
 tutorial.step24.description	0	Be warned, selling raw resources is not very profitable, they are best used to make other Products. Also later we will see how there are more efficient ways of moving Products that involve other Vehicle types.	주의할 점은, 원자재의 판매는 수익성이 높지 않으며, 다른 제품을 만드는 데 가장 적합합니다. 또한 나중에 다른 차량 유형과 관련된, 제품을 이송하는 더 효율적인 방법이 있는지 알아 볼 것입니다. 
 tutorial.step25.description	0	Before we move on, let’s talk about the Hold until Full button. This feature will hold your vehicles back until their individual storage is full.	계속 진행하기 전에 꽉 찰 때까지 보류 버튼에 대해 이야기해 보겠습니다. 이 기능은 개별 창고가 가득 찰 때까지 이송 차량의 운행을 보류합니다. 
@@ -7090,23 +7090,23 @@ tutorial.step30.objective2.description	0	Set Cycle to Infinite	횟수를 무한�
 tutorial.step30.objective3.description	0	Close Water Siphon Panel	취수장 탭 닫기
 tutorial.step31.description	0	We can also fine-tune our warehouses to work differently, depending on what you want them to do.	우리는 또한 창고가 당신이 원하는 것에 따라 다르게 작동하도록 미세 조정할 수 있습니다.
 tutorial.step32.description	0	We can set the building’s distribution priorities using the Drop down menu found in the Outgoing tab. By Default, it is set to prioritize equally, but there are more options.	발송 탭에 있는 드롭 다운 메뉴를 사용하여 건물의 배송 우선순위를 설정할 수 있습니다. 기본적으로 우선순위는 동일하게 설정되지만 더 많은 옵션이 있습니다.
-tutorial.step32.objective0.description	0	Open the Outgoing Tab of the Warehouse	창고의 발송 탭 열기
+tutorial.step32.objective0.description	0	Open the Outgoing Tab of the Warehouse	창고의 출하 상품 탭 열기
 tutorial.step32.objective1.description	0	Click on the Priorities Button	우선순위 버튼 클릭
 tutorial.step33.description	0	Warehouse’s Priorities can either prioritize Producers or Shops, so the Warehouse will distribute to the one over the other first.	창고의 우선 순위는 생산자 또는 상점 중 하나를 우선시할 수 있으며, 다른 하나가 아닌 한 곳에 우선 배분할 수 있습니다.
 tutorial.step34.description	0	Or we can set the Warehouse to forgo sending any products to Buildings or Shops and focus purely on the other. There is also an option to distribute nothing at all. Whatever works for you.	또는 창고가 그 어떠한 제품도 건물이나 상점에 보내는 것을 중지하고 다른 것에만 집중하도록 설정할 수 있습니다. 아무것도 발송하지 않는 옵션도 있습니다. 뭐든 편한대로 하십시오.
-tutorial.step34.objective0.description	0	Click on the Priorities Button to close it.	우선순위 버튼을 눌러서 이것을 끄기
+tutorial.step34.objective0.description	0	Click on the Priorities Button to close it.	우선순위 버튼을 다시 균등하게 누르기
 tutorial.step34.objective1.description	0	Close Warehouse Building Panel	창고 건물 패널 닫기
 tutorial.step35.description	0	Before we can talk about using the Warehouse to make a proper Destination, we need to unlock a Logistics Module on the Tech Tree.	적절한 목적지를 만들기 위해 창고를 사용하는 것에 대해 이야기하기 전에 앞서, 기술 계통도에서 물류 모듈을 잠금 해제해야 합니다.
 tutorial.step36.description	0	The Tech Tree is where we learn new Recipes, get upgrades, and unlock buildings. Researching Products will unlock their corresponding buildings.	기술 계통도는 우리가 새로운 레시피를 배우고, 업그레이드를 진행하며, 건물의 잠금을 해제할 수 있는 곳입니다. 제품을 연구하면 해당 건물의 잠금을 해제할 수 있습니다.
 tutorial.step36.objective0.description	0	Open Tech Tree	기술 계통도 열기
 tutorial.step37.description	0	At the beginning of each game, we get three free Unlocks. After that, we have to spend money and time to Research an Unlock. Let’s pick a few Unlocks that we will need to move forward.	게임을 시작할 때 마다 3개의 기술 해금(Unlock)포인트를 무료로 드립니다. 그 후, 우리는 기술의 해금에 대한 연구를 위해 돈과 시간을 투자해야 합니다. 앞으로 진행해야 할 해금 목표를 몇 가지 선택해 보겠습니다.
-tutorial.step37.objective0.description	0	Open Advanced Distribution Tech Tree	고급 배포 기술 계통도 열기
+tutorial.step37.objective0.description	0	Open Advanced Distribution Tech Tree	보조 > 향산된 분배 열기
 tutorial.step37.objective1.description	0	Select Train Terminal	열차 터미널 선택
-tutorial.step37.objective2.description	0	Open Produce Tech Tree	생산 기술 계통도 열기
+tutorial.step37.objective2.description	0	Open Produce Tech Tree	시골 > 생산 열기
 tutorial.step37.objective3.description	0	Select Wheat, Vegetables	밀, 야채 선택
 tutorial.step38.description	0	As a note, we add more unlocks to a Research Queue to continuously research them while we work on other things.	참고로, 연구 대기열에 추가로 해금 목록을 등록하여 다른 작업을 수행하는 동안 지속적으로 연구할 수 있습니다.
 tutorial.step38.objective0.description	0	Add Flour to the Research Queue	밀가루를 연구 대기열에 추가하기
-tutorial.step38.objective1.description	0	Open Logistics & Administration Tree.	물류 & 연구 계통도 열기
+tutorial.step38.objective1.description	0	Open Logistics & Administration Tree.	물류 & 관리 계통도 열기
 tutorial.step38.objective2.description	0	Add Air Purifier to Research Queue	공기 집진기를 연구 대기열에 추가하기
 tutorial.step38.objective3.description	0	Close Tech Tree	기술 계통도 닫기
 tutorial.step39.description	0	Now that we are researching Flour, the Research Progress Bar appears in the upper left-hand corner. It usually takes a good amount of time to research, so let’s cheat...	이제 밀가루를 연구 중 이므로 왼쪽 상단에 연구 진행상황 막대가 나타납니다. 보통 조사하는데 상당한 시간이 걸리므로, 약간의 속임수를 써 봅시다...
@@ -7136,7 +7136,7 @@ tutorial.step47.description	0	When our Warehouses are connected via a Logistic N
 tutorial.step48.description	0	Now that the infrastructure has been built, we can now make the Route. Let’s send some Wood to Newton!	이제 인프라가 구축되었으므로 경로를 만들 수 있게 되었습니다. 뉴턴에 목재를 보내도록 합시다! 
 tutorial.step48.objective0.description	0	Open Chapwick’s Warehouse’s Panel	채프윅의 창고 패널 열기
 tutorial.step48.objective1.description	0	Click [ + ] Button	[ + ] 버튼 클릭
-tutorial.step48.objective2.description	0	Select Wood	목재 선택
+tutorial.step48.objective2.description	0	Select Wood	원자재 > 목재 선택
 tutorial.step48.objective3.description	0	Click Choose Destination	목적지 선택하기 클릭
 tutorial.step48.objective4.description	0	Click Warehouses Category	창고 카테고리 클릭
 tutorial.step48.objective5.description	0	Select the Warehouse in Newton	뉴턴의 창고 선택하기
@@ -7162,13 +7162,13 @@ tutorial.step57.description	0	The Crop Farm, like all Farms, are like Gatherers 
 tutorial.step57.objective0.description	0	Place 3 Fields in Highlighted area	강조된 지역에 3개의 필드를 배치하기
 tutorial.step57.objective1.description	0	Close Crop Farm Building Panel	작물 농장 건설 바를 닫기
 tutorial.step58.description	0	Once we place a road between the Warehouse and the Crop Farm, the Warehouse will begin sending Water to the Crop Farm automatically.	창고와 작물 농장 사이에 도로를 건설하면 창고에서 자동으로 작물 농장으로 물을 보내기 시작합니다.
-tutorial.step58.objective0.description	0	Open Road Construction Panel	도로 건설 패널 열기
+tutorial.step58.objective0.description	0	Open Road Construction Panel	네트워크 패널 열기
 tutorial.step58.objective1.description	0	Click Road Button	도로 버튼 클릭
 tutorial.step58.objective2.description	0	Place the Road between Warehouse and Crop Farm	창고와 작물농장 사이에 도로를 배치하기
 tutorial.step59.description	0	Our Crop Farm is ready to produce something. If we check the Farmer's Market we will see Vegetables have a higher value than Wheat, so let's set our Crop Farm's Production to Vegetables.	이제 우리 작물 농장은 무언가를 생산할 준비를 마쳤습니다. 농협을 확인해보면 채소의 가치가 밀보다 높으므로 작물 농장의 생산품을 채소로 설정해 보겠습니다.
 tutorial.step59.objective0.description	0	Open Chapwick Farmer's Market	채프윅 농협 열기
 tutorial.step59.objective1.description	0	Open the Crop Farm's Production Tab	작물 농장 생산 탭 열기
-tutorial.step59.objective2.description	0	Set the Crop Farm's Production to Vegetables	작물 농장의 생삼푼을 야채로 설정
+tutorial.step59.objective2.description	0	Set the Crop Farm's Production to Vegetables	작물 농장의 생산품을 야채로 설정
 tutorial.step59.objective3.description	0	Close Farmer's Market and Crop Farm Building Panel	농협과 작물 농장 건설 패널을 닫기
 tutorial.step60.description	0	Congratulations, we now have a working Vegetable production line! So let's start making some money by selling our Vegetables.	축하합니다, 이제 야채 생산 라인을 가동하게 되었습니다! 그러니 지금부터 야채를 팔아서 돈을 벌어 들여봅시다.
 tutorial.step61.description	0	Eventually, we will want to start producing higher Tier Products to generate higher profits. Factories are buildings that follow a selected Recipe to generate a Product, similar to Farms.	결국, 우리는 더 높은 수익을 창출하기 위해선 더 높은 등급의 제품을 생산해야 할 필요가 있습니다. 공장은 농장과 마찬가지로 선택된 레시피를 따라 제품을 생산하는 건물입니다.
@@ -7186,13 +7186,13 @@ tutorial.step66.description	0	Another aspect of Rise of Industry we should cover
 tutorial.step67.description	0	If Traffic does become a problem, we can use the Map Layers to see where our Trucks are getting jammed and then alter the traffic patterns to fix the problems.	교통량이 문제가 될 경우 지도 레이어를 사용하여 트럭이 어디에서 멈춰 서는지 확인한 다음 교통 패턴을 변경하여 문제를 해결할 수 있습니다.
 tutorial.step67.objective0.description	0	Open Map Layers	지도 레이어 열기
 tutorial.step67.objective1.description	0	Click Show Traffic Heat Map	교통량 히트맵 열기
-tutorial.step68.description	0	Map Layers also gives you access to a variety of different information about the map. If you need more specific data about the map, we can use the Query Tool.	또한 지도 레이어를 사용하면 지도에서 다양한 정보에 접근할 수 있습니다. 지도에 대한 보다 구체적인 데이터가 필요하시다면 요청 도구를 이용하실 수 있습니다.
+tutorial.step68.description	0	Map Layers also gives you access to a variety of different information about the map. If you need more specific data about the map, we can use the Query Tool.	또한 지도 레이어를 사용하면 지도에서 다양한 정보에 접근할 수 있습니다. 지도에 대한 보다 구체적인 데이터가 필요하시다면 타일 정보 도구를 이용하실 수 있습니다.
 tutorial.step68.objective0.description	0	Close Map Layers	지도 레이어 닫기
-tutorial.step68.objective1.description	0	Select Query Tool	요청 도구 선택
-tutorial.step69.description	0	The Query Tool is used to tell you the detailed information about the tile your cursor is over. It will tell you Tile type, Pollution rating, Building type, and much more.	요청 도구는 커서가 위치한 타일에 대한 자세한 정보를 알려주는 데 사용됩니다. 타일 유형, 공해 등급, 건물 유형 등을 알려줍니다.
-tutorial.step69.objective0.description	0	Close Query Tool Panel	요청 도구 패널 닫기
+tutorial.step68.objective1.description	0	Select Query Tool	타일 정보 도구 선택
+tutorial.step69.description	0	The Query Tool is used to tell you the detailed information about the tile your cursor is over. It will tell you Tile type, Pollution rating, Building type, and much more.	타일 정보 도구는 커서가 위치한 타일에 대한 자세한 정보를 알려주는 데 사용됩니다. 타일 유형, 공해 등급, 건물 유형 등을 알려줍니다.
+tutorial.step69.objective0.description	0	Close Query Tool Panel	타일 정보 도구 패널 닫기
 tutorial.step70.description	0	There are some other tools we have at disposal. If we hit the {button:ToggleObjectLabels} key, a series of labels will appear displaying the name of Settlements, Shops, Resources, and the name of our buildings.	우리가 사용할 수 있는 다른 도구들이 있습니다. 만약 {button:ToggleObjectLabels} 키를 누르면 정착지, 상점, 자원 및 건물 이름의 순서대로 표시하는 일련의 라벨이 나타납니다. 
-tutorial.step70.objective0.description	0	Push the {button:ToggleObjectLabels} {button:ToggleObjectLabels} 버튼 누르기
+tutorial.step70.objective0.description	0	Push the {button:ToggleObjectLabels}	{button:ToggleObjectLabels} 버튼 누르기
 tutorial.step70.objective1.description	0	Cycle through the {button:ToggleObjectLabels} Options	{button:ToggleObjectLabels} 옵션을 순서대로 전환하기
 tutorial.step71.description	0	Pressing the {button:ToggleProductIcons} button will cause Production Bubbles to appear above each of our buildings that show the production progress of each building. It will fill up with green when working right.	{button:ToggleProductIcons} 버튼을 누르면 각 건물 위에 생산 풍선마크가 나타나 각 건물의 생산 진행 상황을 보여줍니다. 이 것이 제대로 작동한다면 녹색으로 채워집니다. 
 tutorial.step71.objective0.description	0	Press the {button:ToggleProductIcons} Button to make bubbles appear	풍선 아이콘이 나타날 때 까지 {button:ToggleProductIcons}을 누르기

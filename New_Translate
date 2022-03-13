@@ -117,7 +117,7 @@ gameoptionsuiconfig.helptypeoption.name	0	Help	도움말
 gameoptionsuiconfig.helptypeoption.description	0	Controls the type of help to be displayed.	표시되는 도움말의 유형을 끄거나 켭니다. 
 gameoptionsuiconfig.helptypeoption.value0	0	Don't show any	다시 보지않음
 gameoptionsuiconfig.helptypeoption.value1	0	Show only critical	주요 내용만
-gameoptionsuiconfig.helptypeoption.value2	0	Show all	Show all 모두 보이기
+gameoptionsuiconfig.helptypeoption.value2	0	Show all	Show all	모두 보이기
 gameoptionsuiconfig.incomepopupsoption.name	0	Income Popups	소득 팝업
 gameoptionsuiconfig.incomepopupsoption.description	0	Displays the amount of money made when a product is consumed.	제품 판매시 소득 내역을 표시해줍니다.
 gameoptionsuiconfig.invertedmousepanningoption.name	0	Inverted Mouse Panning	마우스 반전
@@ -259,7 +259,7 @@ mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.wiki.descriptiontex
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.wiki.name	0	RoI Wiki	RoI 위키
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggleenabled.titletext	0	Switch to	전환함
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggleenabled.name(1)	0	2130	2130
-mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggledisabled.titletext	0	EXPANSION	확장
+mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggledisabled.titletext	0	EXPANSION	확장팩
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggledisabled.name(1)	0	2130	2130
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.2130toggle.2130toggledisabled.buynowtext	0	Buy Now	지금 구매하세요
 mainmenu.wrapper.views.gamemodesscreen.gamemodes.wikimodarea.modfeatured.titletext	0	FEATURED	특징
@@ -466,7 +466,7 @@ popup.wrapper.content.button.buttontext	0	THANKS, PENGUINS!	고맙습니다!
 tooltipcanvas.simpletooltip.text	0	Tooltip	말풍선
 tooltipcanvas.producttooltip.content.producedat	0	Produced At: {building}	생산되는 곳: {building}
 tooltipcanvas.producttooltip.content.requires	0	Requires: {ingredients}	필요 재료: {ingredients}
-tooltipcanvas.producttooltip.content.globalmarketarea.soldentry	0	<color=#C87C0D>{settlement}</color> buys at <color=#C87C0D>{price}</color>	<color=#C87C0D>{settlement}</color> 구매 <color=#C87C0D>{price}</color>
+tooltipcanvas.producttooltip.content.globalmarketarea.soldentry	0	<color=#C87C0D>{settlement}</color> buys at <color=#C87C0D>{price}</color>	<color=#C87C0D>{settlement}</color><color=#C87C0D>{price}</color> 에 구매함
 tooltipcanvas.producttooltip.content.avgprice	0	Avg Price: {price}	평균 가격: {price}
 tooltipcanvas.producttooltip.content.amountneeded	0	Amount Needed: {amount}	필요 수량: {amount}
 tooltipcanvas.producttooltip.content.demand.fullydemanded	0	Fully Demanded	매우 필요함
@@ -1461,12 +1461,12 @@ WorldOptionInt.roadOrientation.valueNames.element1	0	Right	우측
 worldoptionint.roadorientation.displayname	0	Road Orientation	도로 운전 방향
 worldoptionint.roadorientation.description	0	Adjust the truck driving orientation.	트럭이 달리는 방향을 조절합니다
 constructionbarcommand.blueprintsconbarcommand.commandname	0	Layout Mode	레이아웃 모드
-inputbutton.togglepollutionheatmap.displayname	0	Toggle Pollution Heatmap	공해 히트맵을 전환합니다.
+inputbutton.togglepollutionheatmap.displayname	0	Toggle Pollution Heatmap	공해 히트맵 전환
 inputbutton.togglepollutionheatmap.description	0	Press to toggle pollution heatmap on/off	눌러서 공해 히트맵을 끄거냐 켤 수 있습니다.
 theme.2130.displayname	0	2130	2130
 inputbutton.layouttoggle.displayname	0	Open Layouts Panel	레이아웃 패널 열기
 inputbutton.layouttoggle.description	0	Press to open the Layouts panel.	눌러서 레이아웃 패널을 여십시오.
-settlementsalldeadcondition.settlementsalldeadcondition.title	0	It's Over!	끝입니다!
+settlementsalldeadcondition.settlementsalldeadcondition.title	0	It's Over!	끝났습니다!
 settlementsalldeadcondition.settlementsalldeadcondition.description	0	You somehow managed to destroy the whole map with toxic pollution, making it unlivable. Great job, I guess.\nAlthough, you can't shake the feeling that this isn't the end...	당신은 어떻게든 맵 전체를 독성 공해로 파괴하여 사람이 살 수 없도록 만들었습니다. 아주 잘했군요.\n하지만 이게 끝이 아니라는 느낌을 떨칠 수는 없습니다... 
 techtreegenericunlock.boatspeed+25%.unlockname	0	+25% Boat Speed	+25% 선박 속도
 techtreegenericunlock.boatspeed+25%.description	0	Add 25% Speed to Boats.	선박에 25%의 추가속도를 더한다
@@ -1490,11 +1490,11 @@ techtreegenericunlock.warehousestoragea.unlockname	0	+10 Warehouse Storage	+10 �
 techtreegenericunlock.warehousestoragea.description	0	Add 10 Storage Capacity to Warehouses.	창고의 저장허용량을 10 추가합니다
 techtreegenericunlock.warehousestorageb.unlockname	0	+15 Warehouse Storage	+15 창고 저장용량
 techtreegenericunlock.warehousestorageb.description	0	Add 15 Storage Capacity to Warehouses.	창고의 저장허용량을 15 추가합니다
-techtreegenericunlock.cleanerefficiencyl3_l5.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl3_l5.unlockname	0	Pollution Cleaners HR	공해 정화장치 HR
 techtreegenericunlock.cleanerefficiencyl3_l5.description	0	Allows to set Pollution Cleaners Salary to 75% and 125%.	공해제거기의 급료를 75% 와 125%로 설정할 수 있습니다.
-techtreegenericunlock.cleanerefficiencyl6.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl6.unlockname	0	Pollution Cleaners HR	공해 정화장치 HR
 techtreegenericunlock.cleanerefficiencyl6.description	0	Allows to set Pollution Cleaners Salary to 50% and 150%.	공해제거기의 급료를 50% 와 150%로 설정할 수 있습니다.
-techtreegenericunlock.cleanerefficiencyl7.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl7.unlockname	0	Pollution Cleaners HR	공해 정화장치 HR
 techtreegenericunlock.cleanerefficiencyl7.description	0	Allows to set Pollution Cleaners Salary to 25% and 200%.	공해제거기의 급료를 25% 와 200%로 설정할 수 있습니다.
 techtreegenericunlock.factoryefficiencyl1.unlockname	0	Factories HR	공장 HR
 techtreegenericunlock.factoryefficiencyl1.description	0	Allows to set Factories Salary to 25%.	공장의 급료를 25%로 설정할 수 있습니다.
@@ -1756,7 +1756,7 @@ building.coalgatherer.description	0	The Coal Mine uses Harvesters to collect uni
 building.coalmineharvester.buildingname	0	COAL MINE HARVESTER	석탄 자원 수집기
 building.computerfactory.buildingname	0	COMPUTER MEGAFACTORY	컴퓨터 메가팩토리
 building.computerfactory.description	0	The Computer Megafactory uses Products made in various other Factories to make the First Computer Prototype.	컴퓨터 메가팩토리는 다른 여러 공장에서 만든 제품을 사용하여 최초의 시제형 컴퓨터를 제작합니다. 
-building.constructionstore.buildingname	0	Construction Goods	건설 품목
+building.constructionstore.buildingname	0	Construction Goods	철물점
 building.coppergatherer.buildingname	0	COPPER MINE	구리 광산
 building.coppergatherer.description	0	The Copper Mine uses Harvesters to collect units of Copper from Copper deposits placed on Land tiles across the map. 	구리 광산은 자원 수집기를 사용하여 지도 전체에 걸쳐 토지 타일에 배치된 구리 매장지에서 구리 유닛을 수집합니다.  
 building.coppermineharvester.buildingname	0	COPPER MINE HARVESTER	구리 광산 수확기
@@ -2743,7 +2743,7 @@ building.trainlogistical.buildingname	0	Train Terminal	열차 터미널
 building.trainlogistical.description	0	Train Terminals that are connected by Train Tracks use Trains to move a large number of Products from Warehouses across the map. 	철로로 연결된 열차 터미널은 열차를 사용하여 지도를 가로질러 창고로 부터 많은 수의 제품을 운반합니다.  
 building.shippinglogistical.buildingname	0	Boat Depot	선박 창고
 building.shippinglogistical.description	0	Boat Depots launch Boats onto bodies of water to move a massive amount of Products to other Boat Depots. 	선박 창고는 선박을 수역에 띄워 엄청난 양의 제품을 다른 선박 창고로 운반합니다.  
-contractgenerator.settlementcontractgeneratorvanilla.nametemplate	0	Deliver {0} {1} to {2}	 {0} 을 {1} 에서 {2}로 배송한다
+contractgenerator.settlementcontractgeneratorvanilla.nametemplate	0	Deliver {0} {1} to {2}	{1} 을/를 {0} 개 {2}로 배송한다
 techtreegenericunlock.+2offshoreharvesters.unlockname	0	+2 Offshore Harvesters	+2 해상 수확기
 techtreegenericunlock.+2offshoreharvesters.description	0	Able to Place 2 additional offshore based Harvesters	2개의 추가 해양 기반의 수확기를 배치할 수 있습니다. 
 DifficultyOptionPollutionIntensity.pollutionIntensity.valueNames.element0	0	None	없음
@@ -3670,11 +3670,11 @@ playersinfouipanel.aipanel.buildingcountinfo.element0.name	0	Gatherers	수집기
 playersinfouipanel.aipanel.buildingcountinfo.element1.name	0	Farms	농장
 playersinfouipanel.aipanel.buildingcountinfo.element2.name	0	Factories	공장
 playersinfouipanel.aipanel.buildingcountinfo.element3.name	0	Logistics	물류
-playersinfouipanel.aipanel.buildingcountinfo.element4.name	0	Cleaners	청소기
+playersinfouipanel.aipanel.buildingcountinfo.element4.name	0	Cleaners	정화기
 PlayersInfoUIPanel.AIPanel.cashflowLabels.element0	0	Bleeding	재정 출혈
 PlayersInfoUIPanel.AIPanel.cashflowLabels.element1	0	Losing	적자
 PlayersInfoUIPanel.AIPanel.cashflowLabels.element2	0	Gaining	흑자
-PlayersInfoUIPanel.AIPanel.cashflowLabels.element3	0	Prospering	번창중
+PlayersInfoUIPanel.AIPanel.cashflowLabels.element3	0	Prospering	번영
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.aiarea.horizontalarea.aipanel.slotsarea.viewport.content.aiinfo.header.headertitlearea.headersubtitle	0	HQ Region: {town}	본사 지역: {town}
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.aiarea.horizontalarea.aipanel.slotsarea.viewport.content.aiinfo.header.headertitlearea.headersubtitle(1)	0	Cashflow: {cashflow}	현금 유동성: {cashflow}
 ui.mainui.lockedmodeui.mainui.mainmenutoolspanel.aiarea.horizontalarea.aipanel.slotsarea.viewport.content.aiinfo.header.controlsarea.permitamount.tooltip	0	AMOUNT OF PERMITS	허가 금액
@@ -5142,11 +5142,11 @@ techtreegenericunlock.warehousestoragea.unlockname	0	+10 Warehouse Storage	+10 �
 techtreegenericunlock.warehousestoragea.description	0	Add 10 Storage Capacity to Warehouses.	창고의 저장허용량을 10 추가합니다
 techtreegenericunlock.warehousestorageb.unlockname	0	+15 Warehouse Storage	+15 창고 저장용량
 techtreegenericunlock.warehousestorageb.description	0	Add 15 Storage Capacity to Warehouses.	창고의 저장허용량을 15 추가합니다
-techtreegenericunlock.cleanerefficiencyl3_l5.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl3_l5.unlockname	0	Pollution Cleaners HR	공해 정화기 HR
 techtreegenericunlock.cleanerefficiencyl3_l5.description	0	Allows to set Pollution Cleaners Salary to 75% and 125%.	공해제거기의 급료를 75% 와 125%로 설정할 수 있습니다.
-techtreegenericunlock.cleanerefficiencyl6.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl6.unlockname	0	Pollution Cleaners HR	공해 정화기 HR
 techtreegenericunlock.cleanerefficiencyl6.description	0	Allows to set Pollution Cleaners Salary to 50% and 150%.	공해제거기의 급료를 50% 와 150%로 설정할 수 있습니다.
-techtreegenericunlock.cleanerefficiencyl7.unlockname	0	Pollution Cleaners HR	공해 제거기 HR
+techtreegenericunlock.cleanerefficiencyl7.unlockname	0	Pollution Cleaners HR	공해 정화기 HR
 techtreegenericunlock.cleanerefficiencyl7.description	0	Allows to set Pollution Cleaners Salary to 25% and 200%.	공해제거기의 급료를 25% 와 200%로 설정할 수 있습니다.
 techtreegenericunlock.factoryefficiencyl1.unlockname	0	Factories HR	공장 HR
 techtreegenericunlock.factoryefficiencyl1.description	0	Allows to set Factories Salary to 25%.	공장의 급료를 25%로 설정할 수 있습니다.
@@ -5408,7 +5408,7 @@ building.coalgatherer.description	0	The Coal Mine uses Harvesters to collect uni
 building.coalmineharvester.buildingname	0	COAL MINE HARVESTER	석탄 자원 수집기
 building.computerfactory.buildingname	0	COMPUTER MEGAFACTORY	컴퓨터 메가팩토리
 building.computerfactory.description	0	The Computer Megafactory uses Products made in various other Factories to make the First Computer Prototype.	컴퓨터 메가팩토리는 다른 여러 공장에서 만든 제품을 사용하여 최초의 시제형 컴퓨터를 제작합니다. 
-building.constructionstore.buildingname	0	Construction Goods	건설 품목
+building.constructionstore.buildingname	0	Construction Goods	철물점
 building.coppergatherer.buildingname	0	COPPER MINE	구리 광산
 building.coppergatherer.description	0	The Copper Mine uses Harvesters to collect units of Copper from Copper deposits placed on Land tiles across the map. 	구리 광산은 자원 수집기를 사용하여 지도 전체에 걸쳐 토지 타일에 배치된 구리 매장지에서 구리 유닛을 수집합니다.  
 building.coppermineharvester.buildingname	0	COPPER MINE HARVESTER	구리 광산 수확기
@@ -6394,7 +6394,7 @@ building.trainlogistical.buildingname	0	Train Terminal	열차 터미널
 building.trainlogistical.description	0	Train Terminals that are connected by Train Tracks use Trains to move a large number of Products from Warehouses across the map. 	철로로 연결된 열차 터미널은 열차를 사용하여 지도를 가로질러 창고로 부터 많은 수의 제품을 운반합니다.  
 building.shippinglogistical.buildingname	0	Boat Depot	선박 창고
 building.shippinglogistical.description	0	Boat Depots launch Boats onto bodies of water to move a massive amount of Products to other Boat Depots. 	선박 창고는 선박을 수역에 띄워 엄청난 양의 제품을 다른 선박 창고로 운반합니다.  
-contractgenerator.settlementcontractgeneratorvanilla.nametemplate	0	Deliver {0} {1} to {2}	 {0} 을 {1} 에서 {2}로 배송한다
+contractgenerator.settlementcontractgeneratorvanilla.nametemplate	0	Deliver {0} {1} to {2}	{1} 을/를 {0} 개 {2}로 배송한다
 techtreegenericunlock.+2offshoreharvesters.unlockname	0	+2 Offshore Harvesters	+2 해상 수확기
 techtreegenericunlock.+2offshoreharvesters.description	0	Able to Place 2 additional offshore based Harvesters	2개의 추가 해양 기반의 수확기를 배치할 수 있습니다. 
 DifficultyOptionPollutionIntensity.pollutionIntensity.valueNames.element0	0	None	없음
@@ -7249,7 +7249,7 @@ campaign.assistantcampaign.placeanairpurifierne	0	Place an Air Purifier near you
 campaign.stocksrepresentourco	0	Stocks represent our control over a company. If we manage to buy another company’s stock, we will own them, but remember they could buy us out too.	주식은 회사에 대한 우리의 통제력을 나타냅니다. 우리가 다른 회사의 주식을 살 수 있다면 우린 그 주식을 소유하게 되겠지만 또한 그들이 우리의 주식을 사들일 수도 있다는 것을 명심하십시오. 
 campaign.buyatleastonestockfr	0	Buy at least one Stock from a competing company.	최소한 1개의 경쟁회사 주식을 구입하십시오.
 campaign.weshouldnowhaveallth	0	We should now have all the tools we need to complete the final objective. Produce a Prototype Product that pushes our company to the highest pedestal in the industrial world. 	이제 최종 목표를 완료하는 데 필요한 모든 도구가 있어야 합니다. 우리 회사를 산업계에서 가장 높은 자리에 올려놓을 프로토타입 제품을 생산하십시오. 
-campaign.buildandsellaprototy	0	Build and Sell a Prototype Product.	프로토타입 제품을 생산하여 판매하디
+campaign.buildandsellaprototy	0	Build and Sell a Prototype Product.	프로토타입 제품을 생산하여 판매한다
 campaign.assistantcampaign2130.usetabkeytoreviewthe	0	Use {button:ToggleObjectLabels} to Review the Resources on the map and Pick a Region with ruins	{button:ToggleObjectLabels}를 사용하여 지도에서 자원을 검토하고 폐허가 있는 지역을 선택하십시오.
 campaign.assistantcampaign2130.placearuinscavenger	0	Place a Ruin Scavenger	폐허 청소기 배치
 campaign.assistantcampaign2130.placethreeharvesters	0	Place three Harvesters for the Ruin Scavenger	폐허 청소기를 위한 3개의 수확기를 배치한다

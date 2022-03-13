@@ -7,8 +7,8 @@ mainmenu.wrapper.navigation.main.loadgamelink	0	LOAD GAME	게임 불러오기
 mainmenu.wrapper.navigation.main.loadgameactive.text	0	LOAD GAME	게임 불러오기
 1mainmenu.wrapper.navigation.main.savegamelink	0	SAVE GAME	게임 저장
 mainmenu.wrapper.navigation.main.savegameactive.text	0	SAVE GAME	게임 저장
-mainmenu.wrapper.navigation.main.settingslink	0	SETTINGS	세팅
-mainmenu.wrapper.navigation.main.settingslinkactive.text	0	SETTINGS	세팅
+mainmenu.wrapper.navigation.main.settingslink	0	SETTINGS	설정
+mainmenu.wrapper.navigation.main.settingslinkactive.text	0	SETTINGS	설정
 mainmenu.wrapper.navigation.main.settingslinkactive.settings.interfacelink.gameplaylinkdisabled	0	INTERFACE	인터페이스
 mainmenu.wrapper.navigation.main.settingslinkactive.settings.interfacelinkactive.gameplaylinkenabled	0	INTERFACE	인터페이스
 mainmenu.wrapper.navigation.main.settingslinkactive.settings.gameplaylink.gameplaylinkdisabled	0	GAMEPLAY	게임플레이
@@ -3364,7 +3364,7 @@ scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.chang
 scrollviewproducts.viewport.content.category.entriesarea.entry.entryactive.optionaltoggle.tooltip	0	Mandatory Objective	필수 목표
 tutorial.step0.description	0	Welcome to Rise of Industry! A game about testing your entrepreneurial skills. Here are some instructions to give you a head start!	Rise of Industry에 오신 것을 환영합니다! 이 게임에서 기업가의 재능을 테스트 해 볼 수 있습니다. 시작에 도움이 되는 몇 가지를 알아보겠습니다.
 tutorial.step1.description	0	To start off, let us learn how to move around and use the camera. Use the Keyboard and Mouse to Pan, Zoom, and Rotate the Camera. Holding Shift speeds up the movement.	우선 시점을 변경하는 방법을 배워 보겠습니다. 키보드와 마우스를 이용해 시점을 이동, 확대/축소, 회전할 수 있습니다.
-tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
+tutorial.step1.objective0.description	0	Press {button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight} to Pan	(button:MoveCameraUp}, {button:MoveCameraLeft}, {button:MoveCameraDown}, {button:MoveCameraRight}를 이용하여 시점을 이동하세요
 tutorial.step1.objective1.description	0	Use {button:CameraPan} to Pan	{button:CameraPan}을 사용하여 화면을 회전하세요
 tutorial.step1.objective2.description	0	Use {button:RotateCameraLeft} and {button:RotateCameraRight} to Rotate	{button:RotateCameraLeft}와 {button:RotateCameraRight}를 이용하여 시점을 회전하세요
 tutorial.step1.objective3.description	0	Use {button:CameraZoomAxis} or {button:CameraZoomIn} and {button:CameraZoomOut} to Zoom	{button:CameraZoomAxis}나 {button:CameraZoomIn}/{button:CameraZoomOut}를 이용하여 시점을 확대/축소하세요
